@@ -10564,7 +10564,7 @@ items:
               href: api/intune-tem-telecomexpensemanagementpartner-delete.md
             - name: Update
               href: api/intune-tem-telecomexpensemanagementpartner-update.md
-      - name: Cloud PCs (preview)
+      - name: Cloud PCs
         items:
         - name: Overview
           href: resources/cloudpc-api-overview.md

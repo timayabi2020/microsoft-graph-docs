@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 ms.prod: "cloud-pc"
 ---
 
-# Overview for Windows 365 Cloud PC on Microsoft Graph (preview)
+# Overview for Windows 365 Cloud PC on Microsoft Graph
 
 Windows 365 is a cloud-based service that provisions and hosts Cloud PCs as virtual machines for end users. Administrators can easily set up, manage, and scale Windows 365 Cloud PCs to fit the organization's needs. Individual end users can securely stream their rich, personalized Windows experience&mdash;including their apps, data, content, and settings&mdash;from the Microsoft cloud to any device, any time, with their Windows 365 Cloud PC.
 
