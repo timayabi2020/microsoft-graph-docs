@@ -6295,11 +6295,29 @@
     {
       "ChangeList": [
         {
+          "Id": "1c06c349-ae7e-457c-a361-c1f348e933cd",
+          "ApiChange": "Method",
+          "ChangedApiName": "GET",
+          "ChangeType": "Addition",
+          "Description": "Enabled change notifications support to [get](https://docs.microsoft.com/en-us/graph/api/subscription-get?view=graph-rest-v1.0) a subscription for [app-scoped chat notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chat?view=graph-rest-v1.0#subscribe-to-changes-in-any-chat-in-a-tenant-where-a-teams-app-is-installed).",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "1c06c349-ae7e-457c-a361-c1f348e933cd",
+      "Cloud": "prd",
+      "Version": "v1.0",
+      "CreatedDateTime": "2023-03-15T00:00:00",
+      "WorkloadArea": "Teamwork and communications",
+      "SubArea": ""
+    },
+	{
+      "ChangeList": [
+        {
           "Id": "1c06c349-ae7e-457c-a361-c1f348e933ce",
           "ApiChange": "Method",
           "ChangedApiName": "GET",
           "ChangeType": "Addition",
-          "Description": "Enabled change notifications support to [get](https://docs.microsoft.com/en-us/graph/api/subscription-get?view=graph-rest-v1.0) or [list](https://docs.microsoft.com/en-us/graph/api/subscription-list?view=graph-rest-1.0) a subscription for [app-scoped chat notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chat?view=graph-rest-v1.0#subscribe-to-changes-in-any-chat-in-a-tenant-where-a-teams-app-is-installed).",
+          "Description": "Enabled change notifications support to [list](https://docs.microsoft.com/en-us/graph/api/subscription-list?view=graph-rest-1.0) subscriptions for [app-scoped chat notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chat?view=graph-rest-v1.0#subscribe-to-changes-in-any-chat-in-a-tenant-where-a-teams-app-is-installed).",
           "Target": "subscription"
         }
       ],
@@ -6367,11 +6385,29 @@
     {
       "ChangeList": [
         {
+          "Id": "2c19a825-dc16-4707-8f1f-4183354e1229",
+          "ApiChange": "Method",
+          "ChangedApiName": "GET",
+          "ChangeType": "Addition",
+          "Description": "Enabled change notifications support to [get](https://docs.microsoft.com/en-us/graph/api/subscription-get?view=graph-rest-v1.0) a subscription for [app-scoped chat membership notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chatmembership?view=graph-rest-v1.0#subscribe-to-changes-in-membership-of-any-chat-in-a-tenant-where-a-teams-app-is-installed).",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "2c19a825-dc16-4707-8f1f-4183354e1229",
+      "Cloud": "prd",
+      "Version": "v1.0",
+      "CreatedDateTime": "2023-03-15T00:00:00",
+      "WorkloadArea": "Teamwork and communications",
+      "SubArea": ""
+    },
+	
+      "ChangeList": [
+        {
           "Id": "1c19a825-dc16-4707-8f1f-4183354e1229",
           "ApiChange": "Method",
           "ChangedApiName": "GET",
           "ChangeType": "Addition",
-          "Description": "Enabled change notifications support to [get](https://docs.microsoft.com/en-us/graph/api/subscription-get?view=graph-rest-v1.0) or [list](https://docs.microsoft.com/en-us/graph/api/subscription-list?view=graph-rest-1.0) a subscription for [app-scoped chat membership notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chatmembership?view=graph-rest-v1.0#subscribe-to-changes-in-membership-of-any-chat-in-a-tenant-where-a-teams-app-is-installed).",
+          "Description": "Enabled change notifications support to [list](https://docs.microsoft.com/en-us/graph/api/subscription-list?view=graph-rest-1.0) subscriptions for [app-scoped chat membership notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chatmembership?view=graph-rest-v1.0#subscribe-to-changes-in-membership-of-any-chat-in-a-tenant-where-a-teams-app-is-installed).",
           "Target": "subscription"
         }
       ],
@@ -6439,15 +6475,33 @@
     {
       "ChangeList": [
         {
-          "Id": "13e701bc-aeb5-470a-8ff4-650804bce647",
+          "Id": "13e701bc-aeb5-470a-8ff4-650804bce649",
           "ApiChange": "Method",
           "ChangedApiName": "GET",
           "ChangeType": "Addition",
-          "Description": "Enabled change notifications support to [get](https://docs.microsoft.com/en-us/graph/api/subscription-get?view=graph-rest-v1.0) or [list](https://docs.microsoft.com/en-us/graph/api/subscription-list?view=graph-rest-1.0) a subscription for [app-scoped chat messaging notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chatmessage?view=graph-rest-v1.0#subscribe-to-messages-of-any-chat-in-a-tenant-where-a-specific-teams-app-is-installed).",
+          "Description": "Enabled change notifications support to [get](https://docs.microsoft.com/en-us/graph/api/subscription-get?view=graph-rest-v1.0) a subscription for [app-scoped chat messaging notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chatmessage?view=graph-rest-v1.0#subscribe-to-messages-of-any-chat-in-a-tenant-where-a-specific-teams-app-is-installed).",
           "Target": "subscription"
         }
       ],
-      "Id": "13e701bc-aeb5-470a-8ff4-650804bce647",
+      "Id": "13e701bc-aeb5-470a-8ff4-650804bce649",
+      "Cloud": "prd",
+      "Version": "v1.0",
+      "CreatedDateTime": "2023-03-15T00:00:00",
+      "WorkloadArea": "Teamwork and communications",
+      "SubArea": ""
+    },
+	{
+      "ChangeList": [
+        {
+          "Id": "13e701bc-aeb5-470a-8ff4-650804bce648",
+          "ApiChange": "Method",
+          "ChangedApiName": "GET",
+          "ChangeType": "Addition",
+          "Description": "Enabled change notifications support to [list](https://docs.microsoft.com/en-us/graph/api/subscription-list?view=graph-rest-1.0) subscriptions for [app-scoped chat messaging notifications](https://docs.microsoft.com/en-us/graph/teams-changenotifications-chatmessage?view=graph-rest-v1.0#subscribe-to-messages-of-any-chat-in-a-tenant-where-a-specific-teams-app-is-installed).",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "13e701bc-aeb5-470a-8ff4-650804bce648",
       "Cloud": "prd",
       "Version": "v1.0",
       "CreatedDateTime": "2023-03-15T00:00:00",
