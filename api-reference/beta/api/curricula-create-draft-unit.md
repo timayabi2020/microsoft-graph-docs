@@ -2,7 +2,7 @@
 title: "Curricula: Create draft unit"
 description: "Create a new draft unit for the curricula services"
 ms.localizationpriority: medium
-author: "AsBansal1"
+author: "AshwaniBansal1"
 ms.prod: "education"
 doc_type: apiPageType
 ---

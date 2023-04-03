@@ -2,7 +2,7 @@
 title: "Curricula: Get unit information"
 description: "Get an information on the current unit"
 ms.localizationpriority: medium
-author: "AsBansal1"
+author: "AshwaniBansal1"
 ms.prod: "education"
 doc_type: apiPageType
 ---

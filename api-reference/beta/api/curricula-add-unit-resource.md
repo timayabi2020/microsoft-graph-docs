@@ -2,7 +2,7 @@
 title: "Curricula: Add unit resource"
 description: "Use curricula services to add any resource type (word, excel, file, link, powerpoint or assignment resource) to a unit"
 ms.localizationpriority: medium
-author: "AsBansal1"
+author: "AshwaniBansal1"
 ms.prod: "education"
 doc_type: apiPageType
 ---

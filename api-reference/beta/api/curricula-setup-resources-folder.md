@@ -1,8 +1,8 @@
 ---
-title: "Curricula: Set up resources folder"
-description: "Use curricula services to set up unit resources folder"
+title: "Curricula: Setup resources folder"
+description: "Use curricula services to setup unit resources folder"
 ms.localizationpriority: medium
-author: "AsBansal1"
+author: "AshwaniBansal1"
 ms.prod: "education"
 doc_type: apiPageType
 ---
@@ -13,7 +13,7 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Use [curricula services](../resources/educationassignment.md) to set up unit resources folder. Only teachers can perform this operation.
+Use [curricula services](../resources/educationassignment.md) to setup unit resources folder. Only teachers can perform this operation.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).

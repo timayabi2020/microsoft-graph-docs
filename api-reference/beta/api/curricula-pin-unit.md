@@ -2,7 +2,7 @@
 title: "Curricula: Pin the unit created"
 description: "Pin the created unit for curricula services"
 ms.localizationpriority: medium
-author: "AsBansal1"
+author: "AshwaniBansal1"
 ms.prod: "education"
 doc_type: apiPageType
 ---
