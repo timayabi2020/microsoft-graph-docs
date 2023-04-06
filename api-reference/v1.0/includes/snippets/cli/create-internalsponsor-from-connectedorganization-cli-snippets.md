@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity-governance entitlement-management connected-organizations item internal-sponsors ref post --connected-organization-id {connectedOrganization-id} --body '{\
+mgc identity-governance entitlement-management connected-organizations internal-sponsors ref post --connected-organization-id {connectedOrganization-id} --body '{\
   "@odata.id": "https://graph.microsoft.com/v1.0/users/{id}"\
 }\
 '

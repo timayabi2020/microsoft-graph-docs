@@ -54,6 +54,7 @@ The following example gets all resource namespaces.
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_unifiedrbacresourcenamespace"
@@ -62,6 +63,16 @@ The following example gets all resource namespaces.
 ``` http
 GET https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/list-unifiedrbacresourcenamespace-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/list-unifiedrbacresourcenamespace-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

@@ -54,6 +54,7 @@ If successful, this method returns a `200 OK` response code and [Contract](../re
 ##### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_contract_1"
@@ -61,6 +62,16 @@ If successful, this method returns a `200 OK` response code and [Contract](../re
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/contracts/{id}
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-contract-1-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-contract-1-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

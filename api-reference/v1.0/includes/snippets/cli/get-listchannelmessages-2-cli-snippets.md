@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item channels item messages list --team-id {team-id} --channel-id {channel-id} --top 3
+mgc teams channels messages list --team-id {team-id} --channel-id {channel-id} --top 3
 
 ```

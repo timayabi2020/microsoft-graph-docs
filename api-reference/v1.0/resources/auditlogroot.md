@@ -61,12 +61,15 @@ Here is a JSON representation of the resource.
 GET https://graph.microsoft.com/v1.0/auditLogs
 ```
 
-# [cli](#tab/cli)
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-auditlogs-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-auditlogs-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 <!-- {
   "blockType": "response",

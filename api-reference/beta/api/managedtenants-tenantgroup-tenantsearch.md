@@ -58,6 +58,7 @@ If successful, this action returns a `200 OK` response code and a [microsoft.gra
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tenantgroup_tenantsearch"
@@ -71,6 +72,12 @@ Content-Type: application/json
   "tenantId": "String"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/tenantgroup-tenantsearch-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

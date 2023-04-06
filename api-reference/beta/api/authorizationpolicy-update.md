@@ -71,6 +71,7 @@ If successful, this method returns a `204 No Content` response code. It does not
 The following is an example of the request. In this example, guest access level is modified to Restricted Guest User.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_authZPolicy_guestUserLevel"
@@ -83,6 +84,12 @@ PATCH https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizatio
    "guestUserRole":"2af84b1e-32c8-42b7-82bc-daa82404023b"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-authzpolicy-guestuserlevel-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -104,6 +111,7 @@ HTTP/1.1 204 No Content
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_authZPolicy_preview"
@@ -118,6 +126,13 @@ PATCH https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizatio
    ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-authzpolicy-preview-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 #### Response
 
 
@@ -137,6 +152,7 @@ HTTP/1.1 204 No Content
 
 The following is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_authZPolicy_blockMSOLPowerShell"
@@ -149,6 +165,13 @@ PATCH https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizatio
    "blockMsolPowerShell":true
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-authzpolicy-blockmsolpowershell-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 #### Response
 
 
@@ -169,6 +192,7 @@ HTTP/1.1 204 No Content
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_authZPolicy_applications"
@@ -183,6 +207,13 @@ PATCH https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizatio
    }
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-authzpolicy-applications-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 #### Response
 
 
@@ -203,6 +234,7 @@ HTTP/1.1 204 No Content
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_authZPolicy_SSPR"
@@ -215,6 +247,13 @@ PATCH https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizatio
    "allowedToUseSSPR":true
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-authzpolicy-sspr-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 #### Response
 
 
@@ -235,6 +274,7 @@ HTTP/1.1 204 No Content
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_authZPolicy_disableUserConsent"
@@ -249,6 +289,12 @@ PATCH https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizatio
    ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-authzpolicy-disableuserconsent-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -270,6 +316,7 @@ HTTP/1.1 204 No Content
 The following is an example of the request that allows user consent to apps, subject to the built-in [app consent policy](/azure/active-directory/manage-apps/manage-app-consent-policies) `microsoft-user-default-low`, which allows delegated permissions classified "low", for client apps from verified publishers or registered in the same tenant.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_authZPolicy_enableUserConsentLow"
@@ -284,6 +331,12 @@ PATCH https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizatio
    ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-authzpolicy-enableuserconsentlow-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

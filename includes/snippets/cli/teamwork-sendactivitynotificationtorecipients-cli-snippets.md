@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teamwork microsoft-graph-send-activity-notification-to-recipients post --body '{\
+mgc teamwork send-activity-notification-to-recipients post --body '{\
     "topic": {\
         "source": "entityUrl",\
         "value": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/{teamsAppId}"\

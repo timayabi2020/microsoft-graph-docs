@@ -66,6 +66,7 @@ The following is an example of the request.
 Use the `$top` parameter to specify the number of assignments to be returned. The parameter is optional but use it preferably when you have a long list of assignments; otherwise, you will get all the assignments in the class.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_assignments_delta_top2"
@@ -74,6 +75,13 @@ Use the `$top` parameter to specify the number of assignments to be returned. Th
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/education/classes/72a7baec-c3e9-4213-a850-f62de0adad5f/assignments/delta?$top=2
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-assignments-delta-top2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ---
 
 

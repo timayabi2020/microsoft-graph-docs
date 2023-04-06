@@ -77,6 +77,7 @@ If successful, this method returns a `204 No Content` response code.
 
 The following example updates a role management policy rule with ID `Expiration_EndUser_Assignment`.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_unifiedrolemanagementpolicyrule",
@@ -104,6 +105,16 @@ Content-Type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/update-unifiedrolemanagementpolicyrule-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-unifiedrolemanagementpolicyrule-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

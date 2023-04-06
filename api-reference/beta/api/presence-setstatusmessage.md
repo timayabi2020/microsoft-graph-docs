@@ -56,6 +56,7 @@ The following request sets the presence status message as "Hey I'm currently in 
 #### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "setstatusmessage"
@@ -79,6 +80,16 @@ Content-Type: application/json
 }
 ```
 
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/setstatusmessage-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/setstatusmessage-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 ---
 
@@ -100,6 +111,7 @@ The following request sets the presence status message as "Hey I'm currently in 
 #### Set status message: request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "setstatusmessage-another-user"
@@ -117,6 +129,16 @@ Content-Type: application/json
   }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/setstatusmessage-another-user-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/setstatusmessage-another-user-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ---
@@ -136,6 +158,7 @@ HTTP/1.1 200 OK
 This request should be executed on behalf of another user.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "setstatusmessage-another-user-get-presence"
@@ -143,6 +166,16 @@ This request should be executed on behalf of another user.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/fa8bf3dc-eca7-46b7-bad1-db199b62afc3/presence
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/setstatusmessage-another-user-get-presence-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/setstatusmessage-another-user-get-presence-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ---

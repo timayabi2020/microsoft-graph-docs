@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc directory deleted-items microsoft-graph-group get
+mgc directory deleted-items graph-group get
 
 ```

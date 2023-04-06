@@ -54,6 +54,7 @@ If successful, this method returns a `200 OK` response code and a new [trustFram
 
 The following is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "trustframeworkkeyset_getactivekey"
@@ -62,6 +63,12 @@ The following is an example of the request.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/trustFramework/keySets/{id}/getActiveKey
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/trustframeworkkeyset-getactivekey-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

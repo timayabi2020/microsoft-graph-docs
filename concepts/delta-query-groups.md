@@ -57,12 +57,15 @@ Take note of the following items:
 GET https://graph.microsoft.com/v1.0/groups/delta?$select=displayName,description,members
 ```
 
-# [cli](#tab/cli)
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delta-query-groups-initial-request-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delta-query-groups-initial-request-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ### Initial response
 
@@ -124,12 +127,15 @@ The second request uses the `@odata.nextLink` from the previous response, which 
 GET https://graph.microsoft.com/v1.0/groups/delta?$skiptoken=pqwSUjGYvb3jQpbwVAwEL7yuI3dU1LecfkkfLPtnIjvB7XnF_yllFsCrZJ
 ```
 
-# [cli](#tab/cli)
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delta-query-groups-nextlink-request-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delta-query-groups-nextlink-request-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ### nextLink response
 
@@ -192,12 +198,15 @@ The third request uses the latest `@odata.nextLink` returned from the last sync 
 GET https://graph.microsoft.com/v1.0/groups/delta?$skiptoken=ppqwSUjGYvb3jQpbwVAwEL7yuI3dU1LecfkkfLPtnIjtQ5LOhVoS7qQG_wdVCHHlbQpga7
 ```
 
-# [cli](#tab/cli)
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delta-query-groups-nextlink-request2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delta-query-groups-nextlink-request2-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ### Final nextLink response
 
@@ -248,12 +257,15 @@ Using the `@odata.deltaLink` from the [last response](#final-nextlink-response),
 GET https://graph.microsoft.com/v1.0/groups/delta?$deltatoken=sZwAFZibx-LQOdZIo1hHhmmDhHzCY0Hs6snoIHJCSIfCHdqKdWNZ2VX3kErpyna9GygROwBk-rqWWMFxJC3pw
 ```
 
-# [cli](#tab/cli)
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delta-query-groups-deltalink-request-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delta-query-groups-deltalink-request-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ### deltaLink response
 
@@ -346,12 +358,15 @@ Let's assume you're running the following delta query - either to capture the in
 GET https://graph.microsoft.com/v1.0/groups/delta?$select=displayName,description,members
 ```
 
-# [cli](#tab/cli)
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delta-query-groups-delta-paging-request-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delta-query-groups-delta-paging-request-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 1. Microsoft Graph may return a response that contains just one group object, with a large list of members in the `members@delta` property:
 

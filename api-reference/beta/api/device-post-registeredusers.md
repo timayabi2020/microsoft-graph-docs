@@ -49,6 +49,7 @@ If successful, this method returns a `204 No Content` response code.
 ##### Request
 Here is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_directoryobject_from_device_2"
@@ -61,6 +62,13 @@ Content-type: application/json
   "@odata.id": "https://graph.microsoft.com/beta/directoryObjects/{id}"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-directoryobject-from-device-2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 In the request body, supply a JSON representation of [directoryObject](../resources/directoryobject.md) object.
 
 ##### Response

@@ -67,6 +67,7 @@ If successful, this method returns a `200 OK` response code and [calendar](../re
 The following example gets the signed-in user's default calendar.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_calendar"
@@ -74,6 +75,16 @@ The following example gets the signed-in user's default calendar.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/calendar
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-calendar-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-calendar-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

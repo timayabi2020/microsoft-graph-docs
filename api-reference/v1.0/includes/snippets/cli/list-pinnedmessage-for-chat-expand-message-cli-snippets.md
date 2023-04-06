@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc chats item pinned-messages list --chat-id {chat-id} --expand message
+mgc chats pinned-messages list --chat-id {chat-id} --expand message
 
 ```

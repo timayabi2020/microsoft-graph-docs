@@ -62,6 +62,7 @@ If the export has started successfully, this action returns a `202 Accepted` res
 ### Request
 The following is an example of a request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "ediscoveryreviewsetthis.export"
@@ -78,6 +79,12 @@ Content-Type: application/json
     "exportStructure": "directory"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/ediscoveryreviewsetthisexport-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

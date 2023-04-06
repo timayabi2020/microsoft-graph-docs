@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity api-connectors item patch --identity-api-connector-id {identityApiConnector-id} --body '{\
+mgc identity api-connectors patch --identity-api-connector-id {identityApiConnector-id} --body '{\
   "displayName": "New Test API",\
   "targetUrl": "https://otherapi.com/api/endpoint",\
   "authenticationConfiguration": {\

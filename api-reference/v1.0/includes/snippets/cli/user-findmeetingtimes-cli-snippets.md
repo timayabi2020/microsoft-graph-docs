@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me microsoft-graph-find-meeting-times post --body '{\
+mgc me find-meeting-times post --body '{\
   "attendees": [ \
     { \
       "type": "required",  \

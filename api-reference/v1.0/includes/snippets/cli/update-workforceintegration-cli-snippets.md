@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teamwork workforce-integrations item patch --workforce-integration-id {workforceIntegration-id} --body '{\
+mgc teamwork workforce-integrations patch --workforce-integration-id {workforceIntegration-id} --body '{\
   "displayName": "displayName-value",\
   "apiVersion": 99,\
   "encryption": {\

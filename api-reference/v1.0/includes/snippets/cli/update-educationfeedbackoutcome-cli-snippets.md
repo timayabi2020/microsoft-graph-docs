@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc education classes item assignments item submissions item outcomes item patch --education-class-id {educationClass-id} --education-assignment-id {educationAssignment-id} --education-submission-id {educationSubmission-id} --education-outcome-id {educationOutcome-id} --body '{\
+mgc education classes assignments submissions outcomes patch --education-class-id {educationClass-id} --education-assignment-id {educationAssignment-id} --education-submission-id {educationSubmission-id} --education-outcome-id {educationOutcome-id} --body '{\
     "@odata.type":"#microsoft.graph.educationFeedbackOutcome",\
     "feedback":{\
         "text":{\

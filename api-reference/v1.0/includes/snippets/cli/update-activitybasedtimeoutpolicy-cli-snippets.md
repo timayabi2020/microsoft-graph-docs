@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc policies activity-based-timeout-policies item patch --activity-based-timeout-policy-id {activityBasedTimeoutPolicy-id} --body '{\
+mgc policies activity-based-timeout-policies patch --activity-based-timeout-policy-id {activityBasedTimeoutPolicy-id} --body '{\
   "definition": [\
     "definition-value"\
   ],\

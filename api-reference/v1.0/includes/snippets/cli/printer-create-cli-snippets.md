@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc print printers microsoft-graph-create post --body '{\
+mgc print printers create post --body '{\
   "displayName": "Test Printer",\
   "manufacturer": "Test Printer Manufacturer",\
   "model": "Test Printer Model",\

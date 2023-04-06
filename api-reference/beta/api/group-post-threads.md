@@ -60,6 +60,7 @@ The following is an example of the request.
 
 # [HTTP](#tab/http)
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_conversationthread_from_group"
@@ -85,6 +86,16 @@ Content-type: application/json
   }]
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-conversationthread-from-group-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-conversationthread-from-group-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

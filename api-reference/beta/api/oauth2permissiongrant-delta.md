@@ -79,6 +79,7 @@ For details, see [Using delta query](/graph/delta-query-overview). For example r
 ## Example
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "oauth2permissiongrant_delta"
@@ -86,6 +87,12 @@ For details, see [Using delta query](/graph/delta-query-overview). For example r
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/oauth2PermissionGrants/delta
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/oauth2permissiongrant-delta-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

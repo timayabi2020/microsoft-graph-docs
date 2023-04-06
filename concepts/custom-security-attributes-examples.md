@@ -47,6 +47,7 @@ The following example shows how to assign a custom security attribute with a str
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_assign_user_string"
@@ -66,6 +67,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-assign-user-string-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-assign-user-string-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -89,6 +100,7 @@ The following example shows how to assign a custom security attribute with a str
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_assign_serviceprincipal_string"
@@ -108,6 +120,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-assign-serviceprincipal-string-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-assign-serviceprincipal-string-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -131,6 +153,7 @@ The following example shows how to assign a custom security attribute with a mul
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_assign_user_multistring"
@@ -151,6 +174,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-assign-user-multistring-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-assign-user-multistring-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -174,6 +207,7 @@ The following example shows how to assign a custom security attribute with an in
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_assign_user_integer"
@@ -194,6 +228,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-assign-user-integer-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-assign-user-integer-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -217,6 +261,7 @@ The following example shows how to assign a custom security attribute with a mul
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_assign_user_multiinteger"
@@ -237,6 +282,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-assign-user-multiinteger-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-assign-user-multiinteger-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -260,6 +315,7 @@ The following example shows how to assign a custom security attribute with a Boo
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_assign_user_boolean"
@@ -279,6 +335,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-assign-user-boolean-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-assign-user-boolean-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -304,6 +370,7 @@ The following example shows how to update a custom security attribute assignment
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_update_user_integer"
@@ -324,6 +391,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-update-user-integer-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-update-user-integer-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -348,6 +425,7 @@ The following example shows how to update a custom security attribute assignment
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_update_user_boolean"
@@ -367,6 +445,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-update-user-boolean-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-update-user-boolean-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -392,6 +480,7 @@ The following example shows how to list a custom security attribute assignment a
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_get_for_user"
@@ -399,6 +488,16 @@ The following example shows how to list a custom security attribute assignment a
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/{id}?$select=customSecurityAttributes 
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-get-for-user-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-get-for-user-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -439,6 +538,7 @@ The following example shows how to remove a custom security attribute assignment
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_remove_from_user_singlevalue"
@@ -458,6 +558,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-remove-from-user-singlevalue-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-remove-from-user-singlevalue-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -480,6 +590,7 @@ The following example shows how to remove a custom security attribute assignment
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "customsecurityattribute_remove_from_user_multivalue"
@@ -499,6 +610,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/customsecurityattribute-remove-from-user-multivalue-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/customsecurityattribute-remove-from-user-multivalue-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

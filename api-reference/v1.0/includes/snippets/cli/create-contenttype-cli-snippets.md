@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc sites item content-types create --site-id {site-id} --body '{\
+mgc sites content-types create --site-id {site-id} --body '{\
     "name": "docSet",\
     "description": "custom docset",\
     "base": {\

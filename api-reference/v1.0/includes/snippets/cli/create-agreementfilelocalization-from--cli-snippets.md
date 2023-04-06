@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity-governance terms-of-use agreements item files create --agreement-id {agreement-id} --body '{\
+mgc identity-governance terms-of-use agreements files create --agreement-id {agreement-id} --body '{\
     "fileName": "Contoso ToU for guest users (French)",\
     "language": "fr-FR",\
     "isDefault": false,\

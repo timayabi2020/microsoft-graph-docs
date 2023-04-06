@@ -48,6 +48,7 @@ Do not supply a request body for this method.
 If successful, this method returns a `200 OK` response code and collection of [directoryObject](../resources/directoryobject.md) objects in the response body.
 ## Example
 ##### Request
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_createdobjects"
@@ -55,6 +56,17 @@ If successful, this method returns a `200 OK` response code and collection of [d
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/createdObjects
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-createdobjects-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-createdobjects-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ##### Response
 
 The following is an example of the response. From the response, the user created a Microsoft 365 group, an application, and it's service principal.

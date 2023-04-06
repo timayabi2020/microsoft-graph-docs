@@ -51,6 +51,7 @@ If successful, this function returns a `200 OK` response code and a file stream 
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["MO248163"],
@@ -60,6 +61,12 @@ If successful, this function returns a `200 OK` response code and a file stream 
 ``` http
 GET https://graph.microsoft.com/beta/admin/serviceAnnouncement/issues/MO248163/incidentReport
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/servicehealthissue-incidentreport-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

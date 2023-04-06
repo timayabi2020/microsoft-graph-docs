@@ -63,6 +63,7 @@ If successful, this action returns a `202 Accepted` response code. It does not r
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "updatableasset_enrollassets"
@@ -82,6 +83,12 @@ Content-Type: application/json
   ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/updatableasset-enrollassets-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

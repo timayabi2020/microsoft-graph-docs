@@ -63,6 +63,7 @@ If successful, this method returns a `200 OK` response code and collection of [d
 ##### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_domainnamereferences",
@@ -71,6 +72,16 @@ If successful, this method returns a `200 OK` response code and collection of [d
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/domains/contoso.com/domainNameReferences
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-domainnamereferences-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-domainnamereferences-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

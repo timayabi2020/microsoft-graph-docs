@@ -54,6 +54,7 @@ If successful, this function returns a `200 OK` response code and a [assignmentO
 ### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "identityuserflowattributeassignment_getorder"
@@ -63,6 +64,12 @@ If successful, this function returns a `200 OK` response code and a [assignmentO
 ``` http
 GET https://graph.microsoft.com/beta/identity/b2cUserFlows/{id}/userAttributeAssignments/getOrder
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/identityuserflowattributeassignment-getorder-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

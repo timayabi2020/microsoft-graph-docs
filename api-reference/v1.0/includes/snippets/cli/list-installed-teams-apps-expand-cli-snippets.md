@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item installed-apps list --team-id {team-id} --expand teamsAppDefinition
+mgc teams installed-apps list --team-id {team-id} --expand teamsAppDefinition
 
 ```

@@ -59,6 +59,7 @@ If successful, this method returns a `200 OK` response code and an updated [stor
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_store"
@@ -72,6 +73,12 @@ Content-Type: application/json
   "defaultLanguageTag": "en-US"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-store-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

@@ -54,6 +54,7 @@ If successful, this method returns a `200 OK` response code and a [serviceUpdate
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["MC172851"],
@@ -64,6 +65,16 @@ If successful, this method returns a `200 OK` response code and a [serviceUpdate
 ``` http
 GET https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/MC172851
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-serviceupdatemessage-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-serviceupdatemessage-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

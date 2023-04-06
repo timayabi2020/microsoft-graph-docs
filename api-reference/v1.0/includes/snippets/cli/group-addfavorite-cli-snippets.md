@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups item microsoft-graph-add-favorite post --group-id {group-id}
+mgc groups add-favorite post --group-id {group-id}
 
 ```

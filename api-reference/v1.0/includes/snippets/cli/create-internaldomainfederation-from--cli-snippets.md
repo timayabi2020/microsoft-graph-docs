@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc domains item federation-configuration create --domain-id {domain-id} --body '{\
+mgc domains federation-configuration create --domain-id {domain-id} --body '{\
   "@odata.type": "#microsoft.graph.internalDomainFederation",\
   "displayName": "Contoso",\
   "issuerUri": "http://contoso.com/adfs/services/trust",\

@@ -53,6 +53,7 @@ If successful, this method returns a `200 OK` response code and an array of [acc
 The following example shows a request to retrieve all the decisions on an instance of an access review pending the calling user's approval.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_accessReviewInstanceDecisionItem_pendingapproval"
@@ -60,6 +61,12 @@ The following example shows a request to retrieve all the decisions on an instan
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/pendingAccessReviewInstances/70a68410-67f3-4d4c-b946-6989e050be19/decisions?$top=100&$skip=0
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/list-accessreviewinstancedecisionitem-pendingapproval-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ---

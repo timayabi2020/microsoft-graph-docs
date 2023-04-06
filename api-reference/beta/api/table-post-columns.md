@@ -49,6 +49,7 @@ If successful, this method returns `201 Created` response code and [workbookTabl
 ##### Request
 Here is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_tablecolumn_from_table"
@@ -64,6 +65,13 @@ Content-type: application/json
   "values": "values-value"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-tablecolumn-from-table-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 In the request body, supply a JSON representation of [workbookTableColumn](../resources/workbooktablecolumn.md) object.
 
 ##### Response

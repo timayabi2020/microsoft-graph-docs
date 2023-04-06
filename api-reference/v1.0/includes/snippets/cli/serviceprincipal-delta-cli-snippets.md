@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc service-principals microsoft-graph-delta() get
+mgc service-principals delta() get
 
 ```

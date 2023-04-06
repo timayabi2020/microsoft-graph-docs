@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups item microsoft-graph-assign-license post --group-id {group-id} --body '{\
+mgc groups assign-license post --group-id {group-id} --body '{\
   "addLicenses": [],\
   "removeLicenses": [\
     "c7df2760-2c81-4ef7-b578-5b5392b571df",\

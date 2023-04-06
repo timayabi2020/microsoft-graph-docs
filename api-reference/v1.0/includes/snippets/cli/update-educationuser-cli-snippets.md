@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc education users item patch --education-user-id {educationUser-id} --body '{\
+mgc education users patch --education-user-id {educationUser-id} --body '{\
   "displayName": "Rogelio Cazares",\
   "givenName": "Rogelio",\
   "middleName": "Fernando",\

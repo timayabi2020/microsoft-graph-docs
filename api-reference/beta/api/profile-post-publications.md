@@ -66,6 +66,7 @@ If successful, this method returns a `201 Created` response code and an [itemPub
 
 ## Examples
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_itemPublication_from_"
@@ -84,6 +85,17 @@ Content-Type: application/json
   "webUrl": "https://www.iabm.io"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-itempublication-from--powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-itempublication-from--typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ### Response
 
 **Note:** The response object shown here might be shortened for readability.

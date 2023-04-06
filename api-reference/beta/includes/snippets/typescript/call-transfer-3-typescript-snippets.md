@@ -1,0 +1,33 @@
+---
+description: "Automatically generated file. DO NOT MODIFY"
+---
+
+```typescript
+
+//THIS SNIPPET IS A PREVIEW FOR THE KIOTA BASED SDK. NON-PRODUCTION USE ONLY
+const graphServiceClient = GraphServiceClient.init({authProvider});
+
+const requestBody : TransferPostRequestBody = {
+	transferTarget : {
+		endpointType : EndpointType.Default,
+		identity : {
+			additionalData : {
+				phone : {
+					"@odata.type" : "#microsoft.graph.identity",
+					id : "+12345678901",
+				},
+			},
+		},
+		additionalData : {
+			"languageId" : "languageId-value",
+			"region" : "region-value",
+		},
+	},
+};
+
+const result = async () => {
+	await graphServiceClient.communications.callsById("call-id").transfer.post(requestBody);
+}
+
+
+```

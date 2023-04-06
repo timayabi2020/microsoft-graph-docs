@@ -97,6 +97,7 @@ The following example changes the date of service by a day and updates the invoi
 
 # [HTTP](#tab/http)
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_bookingappointment",
@@ -125,6 +126,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/update-bookingappointment-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-bookingappointment-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

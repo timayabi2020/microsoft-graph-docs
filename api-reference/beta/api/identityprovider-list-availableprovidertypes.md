@@ -56,6 +56,7 @@ If successful, this function returns a `200 OK` response code and a String colle
 ### Request
 The following is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "identityprovider_availableprovidertypes_in_directory"
@@ -65,6 +66,12 @@ The following is an example of the request.
 ``` http
 GET https://graph.microsoft.com/beta/identityProviders/availableProviderTypes
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/identityprovider-availableprovidertypes-in-directory-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

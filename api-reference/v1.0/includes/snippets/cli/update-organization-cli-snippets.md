@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc organization item patch --organization-id {organization-id} --body '{\
+mgc organization patch --organization-id {organization-id} --body '{\
   "marketingNotificationEmails" : ["marketing@contoso.com"],\
   "privacyProfile" :\
     {\

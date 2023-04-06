@@ -1,0 +1,20 @@
+---
+description: "Automatically generated file. DO NOT MODIFY"
+---
+
+```typescript
+
+//THIS SNIPPET IS A PREVIEW FOR THE KIOTA BASED SDK. NON-PRODUCTION USE ONLY
+const graphServiceClient = GraphServiceClient.init({authProvider});
+
+const requestBody : UserSource = {
+	email : "adelev@contoso.com",
+	includedSources : SourceType.Mailbox,
+};
+
+const result = async () => {
+	await graphServiceClient.compliance.ediscovery.casesById("case-id").legalHoldsById("legalHold-id").userSources.post(requestBody);
+}
+
+
+```

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc applications item token-lifetime-policies ref post --application-id {application-id} --body '{\
+mgc applications token-lifetime-policies ref post --application-id {application-id} --body '{\
   "@odata.id":"https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies/cd3d9b57-0aee-4f25-8ee3-ac74ef5986a9"\
 }\
 '

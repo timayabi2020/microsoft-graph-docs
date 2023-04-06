@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc service-principals item claims-mapping-policies list --service-principal-id {servicePrincipal-id}
+mgc service-principals claims-mapping-policies list --service-principal-id {servicePrincipal-id}
 
 ```

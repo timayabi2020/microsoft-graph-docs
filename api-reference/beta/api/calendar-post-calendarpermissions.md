@@ -73,6 +73,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- { 
   "blockType": "request",
   "sampleKeys": ["458d4c95-124e-49da-ba9d-1dd0387e682e"],
@@ -92,6 +93,13 @@ POST https://graph.microsoft.com/beta/users/458d4c95-124e-49da-ba9d-1dd0387e682e
     "role": "read"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-calendarpermission-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ### Response
 
 

@@ -61,6 +61,7 @@ In this example two rows of data are inserted at the end of the table.
 ##### Request
 Here is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tablerowcollection_add_2"
@@ -77,6 +78,12 @@ Content-type: application/json
   ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/tablerowcollection-add-2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

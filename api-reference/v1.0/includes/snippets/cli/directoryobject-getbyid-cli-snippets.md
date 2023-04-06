@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc directory-objects microsoft-graph-get-by-ids post --body '{\
+mgc directory-objects get-by-ids post --body '{\
     "ids": [\
         "84b80893-8749-40a3-97b7-68513b600544",\
         "5d6059b6-368d-45f8-91e1-8e07d485f1d0",\

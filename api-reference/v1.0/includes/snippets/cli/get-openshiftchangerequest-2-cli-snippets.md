@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item schedule open-shift-change-requests list --team-id {team-id}
+mgc teams schedule open-shift-change-requests list --team-id {team-id}
 
 ```

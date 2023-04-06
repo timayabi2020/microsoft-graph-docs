@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item microsoft-graph-send-activity-notification post --team-id {team-id} --body '{\
+mgc teams send-activity-notification post --team-id {team-id} --body '{\
     "topic": {\
         "source": "entityUrl",\
         "value": "https://graph.microsoft.com/v1.0/teams/{teamId}/channels/{channelId}/tabs/{tabId}"\

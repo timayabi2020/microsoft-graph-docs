@@ -89,11 +89,22 @@ Here is an example of how to call this API to establish your local state.
 Here is an example of the initial request.
 
 
+# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get_item_delta_first", "tags": "service.graph" } -->
 
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/root/delta
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-item-delta-first-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/get-item-delta-first-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -140,11 +151,22 @@ Here is an example of how to call this API to update your local state.
 Here is an example request after the initial request.
 
 
+# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-item-delta-last", "tags": "service.graph" }-->
 
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/root/delta(token='MzslMjM0OyUyMzE7MzsyM2YwNDVhMS1lNmRmLTQ1N2MtOGQ5NS1hNmViZDVmZWRhNWQ7NjM3OTQzNzQwODQ3NTcwMDAwOzU4NTk2OTY0NDslMjM7JTIzOyUyMzA')
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-item-delta-last-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/get-item-delta-last-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

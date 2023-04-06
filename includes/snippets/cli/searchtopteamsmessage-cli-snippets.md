@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc search microsoft-graph-query post --body '{\
+mgc search query post --body '{\
   "requests": [\
     {\
       "entityTypes": [\

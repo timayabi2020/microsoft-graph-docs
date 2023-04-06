@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc directory-objects item microsoft-graph-check-member-groups post --directory-object-id {directoryObject-id} --body '{\
+mgc directory-objects check-member-groups post --directory-object-id {directoryObject-id} --body '{\
     "groupIds": [\
         "f448435d-3ca7-4073-8152-a1fd73c0fd09",\
         "bd7c6263-4dd5-4ae8-8c96-556e1c0bece6",\

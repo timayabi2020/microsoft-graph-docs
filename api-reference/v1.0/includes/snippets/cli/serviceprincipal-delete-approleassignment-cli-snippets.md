@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc service-principals item app-role-assignments item delete --service-principal-id {servicePrincipal-id} --app-role-assignment-id {appRoleAssignment-id}
+mgc service-principals app-role-assignments delete --service-principal-id {servicePrincipal-id} --app-role-assignment-id {appRoleAssignment-id}
 
 ```

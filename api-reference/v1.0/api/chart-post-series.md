@@ -45,6 +45,7 @@ If successful, this method returns `201 Created` response code and [WorkbookChar
 ##### Request
 Here is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_chartseries_from_chart"
@@ -57,6 +58,17 @@ Content-type: application/json
   "name": "name-value"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-chartseries-from-chart-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/create-chartseries-from-chart-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 In the request body, supply a JSON representation of [WorkbookChartSeries](../resources/chartseries.md) object.
 
 ##### Response

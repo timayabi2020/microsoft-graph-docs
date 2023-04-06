@@ -54,6 +54,7 @@ If successful, this method returns a `201 Created` response code and a new [toke
 
 The following is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_tokenIssuancePolicies_from_tokenIssuancePolicies"
@@ -71,6 +72,17 @@ Content-type: application/json
   "isOrganizationDefault": true
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-tokenissuancepolicies-from-tokenissuancepolicies-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-tokenissuancepolicies-from-tokenissuancepolicies-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ---
 
 ### Response

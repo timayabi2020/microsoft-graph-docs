@@ -57,6 +57,7 @@ If successful, this method returns a `200 OK` response code and a count of trans
 The following is an example of the request. The `$count` query segment is required.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_transitivereports_user"
@@ -64,6 +65,12 @@ The following is an example of the request. The `$count` query segment is requir
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/45b7d2e7-b882-4a80-ba97-10b7a63b8fa4/transitiveReports/$count
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-transitivereports-user-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

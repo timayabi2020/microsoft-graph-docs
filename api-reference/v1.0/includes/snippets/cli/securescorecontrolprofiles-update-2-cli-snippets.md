@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc security secure-score-control-profiles item patch --secure-score-control-profile-id {secureScoreControlProfile-id} --body '{\
+mgc security secure-score-control-profiles patch --secure-score-control-profile-id {secureScoreControlProfile-id} --body '{\
   "assignedTo": "",\
   "comment": "control is reviewed",\
   "state": "Reviewed",\

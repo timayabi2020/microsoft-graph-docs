@@ -64,6 +64,7 @@ If successful, this method returns a `204 No Content` response code.
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_appManagementPolicy"
@@ -77,6 +78,12 @@ PATCH https://graph.microsoft.com/beta/policies/appManagementPolicies/{id}
 }
 
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-appmanagementpolicy-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

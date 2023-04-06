@@ -61,12 +61,15 @@ The following is an example of a request.
 GET https://graph.microsoft.com/v1.0/reports/security/getAttackSimulationTrainingUserCoverage
 ```
 
-# [cli](#tab/cli)
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/securityreportsrootthisgetattacksimulationtrainingusercoverage-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/securityreportsrootthisgetattacksimulationtrainingusercoverage-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ### Response
 The following is an example of the response.

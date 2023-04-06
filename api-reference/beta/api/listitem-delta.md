@@ -100,11 +100,18 @@ The following is an example of the initial request that shows how to call this A
 The following is an example of the initial request.
 
 
+# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get_listItem_delta_first", "sampleKeys": ["contoso.sharepoint.com,2C712604-1370-44E7-A1F5-426573FDA80A,2D2244C3-251A-49EA-93A8-39E1C3A060FE", "22e03ef3-6ef4-424d-a1d3-92a337807c30"] } -->
 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/sites/contoso.sharepoint.com,2C712604-1370-44E7-A1F5-426573FDA80A,2D2244C3-251A-49EA-93A8-39E1C3A060FE/lists/22e03ef3-6ef4-424d-a1d3-92a337807c30/items/delta
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-listitem-delta-first-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -196,11 +203,18 @@ The following is an example of a request that shows the last page in a set and h
 The following is an example of a request after the initial request.
 
 
+# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-listItem-delta-last", "sampleKeys": ["contoso.sharepoint.com,2C712604-1370-44E7-A1F5-426573FDA80A,2D2244C3-251A-49EA-93A8-39E1C3A060FE","22e03ef3-6ef4-424d-a1d3-92a337807c30"] }-->
 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/sites/contoso.sharepoint.com,2C712604-1370-44E7-A1F5-426573FDA80A,2D2244C3-251A-49EA-93A8-39E1C3A060FE/lists/22e03ef3-6ef4-424d-a1d3-92a337807c30/items/delta?token=1230919asd190410jlka
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-listitem-delta-last-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

@@ -62,6 +62,7 @@ If successful, this method returns a `201 Created` response code and a [timeCard
 ### Request
 The following is an example of the request. 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "timecard-clockin"
@@ -79,6 +80,16 @@ Content-type: application/json
     }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/timecard-clockin-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/timecard-clockin-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

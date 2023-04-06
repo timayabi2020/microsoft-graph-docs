@@ -50,6 +50,7 @@ If successful, this method returns a `204 No Content` response code.
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_organizationalbranding"
@@ -62,6 +63,12 @@ DELETE https://graph.microsoft.com/beta/organization/84841066-274d-4ec0-a5c1-276
     "id": "0"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delete-organizationalbranding-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

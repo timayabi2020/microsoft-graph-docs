@@ -49,6 +49,7 @@ If successful, this method returns a `200 OK` response code.
 
 The following is an example of a request that clears the preferred availability and activity status for a user.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "clearUserPreferredPresence"
@@ -61,6 +62,16 @@ Content-Type: application/json
 {
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/clearuserpreferredpresence-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/clearuserpreferredpresence-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

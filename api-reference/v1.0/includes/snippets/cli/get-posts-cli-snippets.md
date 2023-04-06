@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups item threads item posts list --group-id {group-id} --conversation-thread-id {conversationThread-id}
+mgc groups threads posts list --group-id {group-id} --conversation-thread-id {conversationThread-id}
 
 ```

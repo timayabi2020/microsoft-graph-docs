@@ -62,6 +62,7 @@ If a `207` response is returned, this indicates that only some of the added **ex
 The following is an example of a request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "externalitemthis.addactivities"
@@ -82,6 +83,12 @@ Content-length: 190
   ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/externalitemthisaddactivities-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

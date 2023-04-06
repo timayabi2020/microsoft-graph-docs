@@ -83,6 +83,7 @@ For details and an example, see [Using delta query](/graph/delta-query-overview)
 ### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "administrativeunit_delta"
@@ -90,6 +91,12 @@ For details and an example, see [Using delta query](/graph/delta-query-overview)
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/administrativeUnits/delta
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/administrativeunit-delta-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

@@ -54,6 +54,7 @@ If successful, this method returns a `200 OK` response code and collection of [b
 ##### Request 1
 The following example gets the Bookings businesses in a tenant.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_bookingbusinesses"
@@ -61,6 +62,17 @@ The following example gets the Bookings businesses in a tenant.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/bookingBusinesses
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-bookingbusinesses-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-bookingbusinesses-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ##### Response 1
 
 The following is an example of the response.
@@ -94,6 +106,7 @@ Content-type: application/json
 The following example shows how to use the `query` parameter to get one or more matching 
 Bookings businesses in the tenant.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "query_bookingbusinesses"
@@ -101,6 +114,17 @@ Bookings businesses in the tenant.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/bookingBusinesses?query=Adventure
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/query-bookingbusinesses-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/query-bookingbusinesses-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ##### Response 2
 
 The following is an example of the response.

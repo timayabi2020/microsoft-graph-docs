@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc communications calls item microsoft-graph-subscribe-to-tone post --call-id {call-id} --body '{\
+mgc communications calls subscribe-to-tone post --call-id {call-id} --body '{\
   "clientContext": "fd1c7836-4d84-4e24-b6aa-23188688cc54"\
 }\
 '

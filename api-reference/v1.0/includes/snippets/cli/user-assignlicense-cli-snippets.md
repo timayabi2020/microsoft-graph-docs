@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me microsoft-graph-assign-license post --body '{\
+mgc me assign-license post --body '{\
   "addLicenses": [\
     {\
       "disabledPlans": [ "11b0131d-43c8-4bbb-b2c8-e80f9a50834a" ],\

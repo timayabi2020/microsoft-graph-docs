@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item schedule open-shifts item patch --team-id {team-id} --open-shift-id {openShift-id} --body '{\
+mgc teams schedule open-shifts patch --team-id {team-id} --open-shift-id {openShift-id} --body '{\
 "schedulingGroupId": "TAG_228940ed-ff84-4e25-b129-1b395cf78be0",\
 "sharedOpenShift": {\
 "notes": "Inventory Management",\

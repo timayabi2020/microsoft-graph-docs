@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events item microsoft-graph-decline post --event-id {event-id} --body '{\
+mgc me events decline post --event-id {event-id} --body '{\
   "comment": "I won't be able to make this week. How about next week?",\
   "sendResponse": true,\
   "proposedNewTime": {\

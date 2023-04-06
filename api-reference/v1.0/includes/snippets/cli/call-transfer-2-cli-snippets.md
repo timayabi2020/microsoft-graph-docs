@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc communications calls item microsoft-graph-transfer post --call-id {call-id} --body '{\
+mgc communications calls transfer post --call-id {call-id} --body '{\
   "transferTarget": {\
     "@odata.type": "#microsoft.graph.invitationParticipantInfo",\
     "endpointType": "default",\

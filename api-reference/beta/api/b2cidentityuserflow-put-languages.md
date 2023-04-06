@@ -72,6 +72,7 @@ If successful, this method returns a `201 Created` response code and a [userFlow
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_userflowlanguageconfiguration_from__1",
@@ -88,6 +89,12 @@ Content-Type: application/json
   "isEnabled": true
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-userflowlanguageconfiguration-from--1-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -121,6 +128,7 @@ Content-Type: application/json
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_userflowlanguageconfiguration_from__2",
@@ -136,6 +144,12 @@ Content-Type: application/json
   "isEnabled": false
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-userflowlanguageconfiguration-from--2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

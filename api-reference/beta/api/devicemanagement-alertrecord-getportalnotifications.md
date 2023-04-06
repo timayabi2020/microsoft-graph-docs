@@ -56,6 +56,7 @@ If successful, this function returns a `200 OK` response code and a collection o
 The following is an example of a request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "alertrecordthis.getportalnotifications"
@@ -64,6 +65,12 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/deviceManagement/monitoring/alertRecords/getPortalNotifications
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/alertrecordthisgetportalnotifications-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

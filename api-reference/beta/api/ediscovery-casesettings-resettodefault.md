@@ -55,6 +55,7 @@ If successful, this action returns a `200 OK` response code.
 ### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "settings_resettodefault_for_caseID"
@@ -64,6 +65,12 @@ If successful, this action returns a `200 OK` response code.
 ``` http
 POST https://graph.microsoft.com/beta/compliance/ediscovery/cases/{caseId}/settings/resetToDefault
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/settings-resettodefault-for-caseid-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

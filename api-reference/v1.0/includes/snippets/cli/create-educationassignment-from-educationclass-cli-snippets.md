@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc education classes item assignments create --education-class-id {educationClass-id} --body '{\
+mgc education classes assignments create --education-class-id {educationClass-id} --body '{\
     "dueDateTime": "2022-09-16T00:00:00Z",\
     "displayName": "Reading test 09.14",\
     "instructions": {\

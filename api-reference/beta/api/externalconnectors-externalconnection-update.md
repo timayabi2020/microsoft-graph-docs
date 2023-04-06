@@ -62,6 +62,7 @@ The following is an example of the request.
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_connection",
@@ -77,6 +78,16 @@ Content-type: application/json
   "description": "Connection to index HR service tickets"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/update-connection-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-connection-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

@@ -61,6 +61,7 @@ If successful, this method returns a `201 Created` and a [microsoft.graph.securi
 ### Request
 The following is an example of a request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_additional_source_associated_ediscovery_search"
@@ -76,6 +77,12 @@ POST https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscovery
     }
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-additional-source-associated-ediscovery-search-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

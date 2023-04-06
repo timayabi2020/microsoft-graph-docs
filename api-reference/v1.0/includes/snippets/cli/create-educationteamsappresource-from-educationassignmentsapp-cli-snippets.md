@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc education classes item assignments item resources create --education-class-id {educationClass-id} --education-assignment-id {educationAssignment-id} --body '{\
+mgc education classes assignments resources create --education-class-id {educationClass-id} --education-assignment-id {educationAssignment-id} --body '{\
     "distributeForStudentWork": false,\
     "resource": {\
         "displayName": "Template - My Story",\

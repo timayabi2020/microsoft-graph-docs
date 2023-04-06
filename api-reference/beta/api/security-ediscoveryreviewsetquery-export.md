@@ -65,6 +65,7 @@ If successful, this action returns a `202 Accepted` response code.
 ### Request
 The following is an example of a request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "ediscoveryreviewsetquerythis.export"
@@ -81,6 +82,12 @@ Content-Type: application/json
     "exportStructure": "directory"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/ediscoveryreviewsetquerythisexport-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

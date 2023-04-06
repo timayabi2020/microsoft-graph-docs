@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity-governance entitlement-management assignment-policies item put --access-package-assignment-policy-id {accessPackageAssignmentPolicy-id} --body '{\
+mgc identity-governance entitlement-management assignment-policies put --access-package-assignment-policy-id {accessPackageAssignmentPolicy-id} --body '{\
   "id":"87e1c7f7-c7f7-87e1-f7c7-e187f7c7e187",\
   "displayName": "All Users",\
   "description": "All users can request for access to the directory.",\

@@ -47,6 +47,7 @@ If successful, this method returns `201 Created` response code and [workbookChar
 ##### Request
 Here is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_chart_from_worksheet"
@@ -61,6 +62,13 @@ Content-type: application/json
   "left": 99
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-chart-from-worksheet-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 In the request body, supply a JSON representation of [workbookChart](../resources/workbookchart.md) object.
 
 ##### Response

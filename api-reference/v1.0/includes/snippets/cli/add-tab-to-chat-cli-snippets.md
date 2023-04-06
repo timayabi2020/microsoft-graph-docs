@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc chats item tabs create --chat-id {chat-id} --body '{\
+mgc chats tabs create --chat-id {chat-id} --body '{\
   "displayName": "My Contoso Tab",\
   "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/06805b9e-77e3-4b93-ac81-525eb87513b8",\
   "configuration": {\

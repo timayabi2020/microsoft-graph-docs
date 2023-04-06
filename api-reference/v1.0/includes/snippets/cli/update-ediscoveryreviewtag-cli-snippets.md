@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc security cases ediscovery-cases item tags item patch --ediscovery-case-id {ediscoveryCase-id} --ediscovery-review-tag-id {ediscoveryReviewTag-id}
+mgc security cases ediscovery-cases tags patch --ediscovery-case-id {ediscoveryCase-id} --ediscovery-review-tag-id {ediscoveryReviewTag-id}
 
 ```

@@ -60,6 +60,7 @@ The response contains a **Location** header which contains a URL to the created 
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_delegatedadminrelationship_from_"
@@ -88,6 +89,12 @@ Content-Type: application/json
   }
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-delegatedadminrelationship-from--typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

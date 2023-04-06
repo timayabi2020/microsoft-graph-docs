@@ -42,6 +42,7 @@ In the request body, supply a JSON representation of the [listItem][] resource t
 Here is an example of how to create a new generic list item.
 
 
+# [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "create-listitem-1", "scopes": "sites.readwrite.all" } -->
 
 ```http
@@ -56,6 +57,16 @@ Content-Type: application/json
   }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-listitem-1-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-listitem-1-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ## Response

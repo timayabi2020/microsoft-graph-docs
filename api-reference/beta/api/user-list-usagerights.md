@@ -63,6 +63,7 @@ Additionally, if there are more pages in the response an @odata.nextLink is retu
 
 #### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "list_usageright_3"
@@ -71,6 +72,12 @@ Additionally, if there are more pages in the response an @odata.nextLink is retu
 ``` http
 GET https://graph.microsoft.com/beta/users/{userId}/usageRights
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/list-usageright-3-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc directory-roles item members ref post --directory-role-id {directoryRole-id} --body '{\
+mgc directory-roles members ref post --directory-role-id {directoryRole-id} --body '{\
   "@odata.id": "https://graph.microsoft.com/v1.0/directoryObjects/15c1a2d5-9101-44b2-83ab-885db8a647ca"\
 }\
 '

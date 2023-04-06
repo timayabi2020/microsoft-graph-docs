@@ -1,0 +1,21 @@
+---
+description: "Automatically generated file. DO NOT MODIFY"
+---
+
+```typescript
+
+//THIS SNIPPET IS A PREVIEW FOR THE KIOTA BASED SDK. NON-PRODUCTION USE ONLY
+const graphServiceClient = GraphServiceClient.init({authProvider});
+
+const configuration = {
+	queryParameters : {
+		expand: ["roleDefinition"],
+	}
+};
+
+const result = async () => {
+	await graphServiceClient.roleManagement.directory.roleAssignmentsById("unifiedRoleAssignment-id").get(configuration);
+}
+
+
+```

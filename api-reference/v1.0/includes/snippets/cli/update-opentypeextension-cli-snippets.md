@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups item threads item posts item extensions item patch --group-id {group-id} --conversation-thread-id {conversationThread-id} --post-id {post-id} --extension-id {extension-id} --body '{\
+mgc groups threads posts extensions patch --group-id {group-id} --conversation-thread-id {conversationThread-id} --post-id {post-id} --extension-id {extension-id} --body '{\
    "@odata.type": "Microsoft.OutlookServices.OpenTypeExtension",\
    "extensionName": "Com.Contoso.Estimate",\
    "companyName": "Contoso",\

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity api-connectors item microsoft-graph-upload-client-certificate post --identity-api-connector-id {identityApiConnector-id} --body '{\
+mgc identity api-connectors upload-client-certificate post --identity-api-connector-id {identityApiConnector-id} --body '{\
     "pkcs12Value": "eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ...kDJ04sJShkkgjL9Bm49plA",\
     "password": "<password>"\
 }\

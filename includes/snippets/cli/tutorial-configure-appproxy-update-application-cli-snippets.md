@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc applications item patch --application-id {application-id} --body '{\
+mgc applications patch --application-id {application-id} --body '{\
     "identifierUris": [\
         "https://contosoiwaapp-contoso.msappproxy.net"\
     ],\

@@ -57,6 +57,7 @@ If successful, this action returns a `200 OK` response code and a [updateAllowed
 ### Request
 The following is an example of a request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "authenticationstrengthpolicythis.updateallowedcombinations"
@@ -73,6 +74,16 @@ Content-length: 51
   ]
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/authenticationstrengthpolicythisupdateallowedcombinations-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/authenticationstrengthpolicythisupdateallowedcombinations-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me messages item microsoft-graph-copy post --message-id {message-id} --body '{\
+mgc me messages copy post --message-id {message-id} --body '{\
   "destinationId": "destinationId-value"\
 }\
 '

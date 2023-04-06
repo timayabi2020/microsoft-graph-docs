@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item schedule scheduling-groups create --team-id {team-id} --body '{\
+mgc teams schedule scheduling-groups create --team-id {team-id} --body '{\
   "displayName": "Cashiers",\
   "isActive": true,\
   "userIds": [\

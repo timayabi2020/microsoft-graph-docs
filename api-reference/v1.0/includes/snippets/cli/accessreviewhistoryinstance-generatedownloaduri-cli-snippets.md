@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity-governance access-reviews history-definitions item instances item microsoft-graph-generate-download-uri post --access-review-history-definition-id {accessReviewHistoryDefinition-id} --access-review-history-instance-id {accessReviewHistoryInstance-id}
+mgc identity-governance access-reviews history-definitions instances generate-download-uri post --access-review-history-definition-id {accessReviewHistoryDefinition-id} --access-review-history-instance-id {accessReviewHistoryInstance-id}
 
 ```

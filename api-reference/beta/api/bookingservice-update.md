@@ -73,6 +73,7 @@ If successful, this method returns a `204 No content` response code. It does not
 ### Request
 The following example updates the duration of the specified service.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_bookingservice",
@@ -87,6 +88,17 @@ Content-type: application/json
     "defaultDuration":"PT30M"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/update-bookingservice-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-bookingservice-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ### Response
 
 The following is an example of the response.

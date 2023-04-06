@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc print task-definitions item tasks item get --print-task-definition-id {printTaskDefinition-id} --print-task-id {printTask-id}
+mgc print task-definitions tasks get --print-task-definition-id {printTaskDefinition-id} --print-task-id {printTask-id}
 
 ```

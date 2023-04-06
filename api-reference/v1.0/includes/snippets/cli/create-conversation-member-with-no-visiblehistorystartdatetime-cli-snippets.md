@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc chats item members create --chat-id {chat-id} --body '{\
+mgc chats members create --chat-id {chat-id} --body '{\
     "@odata.type": "#microsoft.graph.aadUserConversationMember",\
     "user@odata.bind": "https://graph.microsoft.com/v1.0/users/8b081ef6-4792-4def-b2c9-c363a1bf41d5",\
     "roles": ["owner"]\

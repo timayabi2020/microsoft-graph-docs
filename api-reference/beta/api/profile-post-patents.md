@@ -63,6 +63,7 @@ If successful, this method returns a `201 Created` response code and an [itemPat
 
 ## Examples
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_itempatent_from_profile"
@@ -80,6 +81,17 @@ Content-Type: application/json
   "webUrl": "https://patents.gov/3954432633"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-itempatent-from-profile-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-itempatent-from-profile-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ### Response
 
 **Note:** The response object shown here might be shortened for readability.

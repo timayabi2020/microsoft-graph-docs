@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc service-principals item home-realm-discovery-policies ref post --service-principal-id {servicePrincipal-id} --body '{\
+mgc service-principals home-realm-discovery-policies ref post --service-principal-id {servicePrincipal-id} --body '{\
   "@odata.id":"https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/cd3d9b57-0aee-4f25-8ee3-ac74ef5986a9"\
 }\
 '

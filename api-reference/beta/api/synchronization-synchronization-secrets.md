@@ -51,6 +51,7 @@ If the secrets are successfully saved, this method returns a `204 No Content` re
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "synchronization_secrets"
@@ -80,6 +81,12 @@ Content-type: application/json
     ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/synchronization-secrets-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

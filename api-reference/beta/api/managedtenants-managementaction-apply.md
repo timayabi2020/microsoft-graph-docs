@@ -58,6 +58,7 @@ If successful, this action returns a `200 OK` response code and a [managementAct
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "managementaction_apply"
@@ -73,6 +74,12 @@ Content-Type: application/json
   "managementTemplateId": "String"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/managementaction-apply-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

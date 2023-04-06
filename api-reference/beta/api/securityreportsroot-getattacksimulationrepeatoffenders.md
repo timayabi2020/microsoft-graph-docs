@@ -53,6 +53,7 @@ If successful, this function returns a `200 OK` response code and an [attackSimu
 ### Request
 The following is an example of a request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "securityreportsrootthis.getattacksimulationrepeatoffenders"
@@ -61,6 +62,12 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/reports/security/getAttackSimulationRepeatOffenders
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/securityreportsrootthisgetattacksimulationrepeatoffenders-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc communications calls item microsoft-graph-record-response post --call-id {call-id} --body '{\
+mgc communications calls record-response post --call-id {call-id} --body '{\
   "bargeInAllowed": true,\
   "clientContext": "d45324c1-fcb5-430a-902c-f20af696537c",\
   "prompts": [\

@@ -77,6 +77,7 @@ If successful, this method returns a `200 OK` response code and collection of [c
 ##### Request
 The following example gets the **displayName** and **emailAddresses** properties of the signed-in user's contacts.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_get_contacts"
@@ -84,6 +85,16 @@ The following example gets the **displayName** and **emailAddresses** properties
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/contacts?$select=displayName,emailAddresses
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/user-get-contacts-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/user-get-contacts-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

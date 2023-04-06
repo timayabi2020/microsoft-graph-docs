@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me microsoft-graph-send-mail post --body '{\
+mgc me send-mail post --body '{\
   "message": {\
     "subject": "Meet for lunch?",\
     "body": {\

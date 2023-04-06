@@ -65,6 +65,7 @@ The following example shows how to call this API.
 The following example shows the request.
 
 
+# [HTTP](#tab/http)
 <!-- { 
   "blockType": "request", 
   "name": "call-mute" 
@@ -77,6 +78,16 @@ Content-Type: application/json
   "clientContext": "clientContext-value"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/call-mute-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/call-mute-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

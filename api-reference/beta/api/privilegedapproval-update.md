@@ -61,6 +61,7 @@ Note that the tenant needs to be registered to PIM. Otherwise, the HTTP 403 Forb
 ##### Request
 Here is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_privilegedapproval"
@@ -74,6 +75,17 @@ Content-type: application/json
   "approverReason": "approverReason-value"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/update-privilegedapproval-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-privilegedapproval-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ##### Response
 
 Here is an example of the response. Note: The response object shown here might be shortened for readability.

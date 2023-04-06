@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me mail-folders microsoft-graph-delta() get
+mgc me mail-folders delta() get
 
 ```

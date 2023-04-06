@@ -106,6 +106,7 @@ Adding an optional request header - `prefer:return=minimal` - results in the fol
 The following is an example of the request. Because there is no `$select` parameter, a default set of properties is tracked and returned.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "orgContact_delta"
@@ -114,6 +115,12 @@ The following is an example of the request. Because there is no `$select` parame
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/contacts/delta
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/orgcontact-delta-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 
@@ -160,6 +167,7 @@ Content-type: application/json
 The next example shows the initial request selecting three properties for change tracking, with default response behavior.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "orgcontact_delta_select"
@@ -168,6 +176,12 @@ The next example shows the initial request selecting three properties for change
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/contacts/delta?$select=displayName,jobTitle,mail
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/orgcontact-delta-select-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -205,6 +219,7 @@ Content-type: application/json
 The next example shows the initial request selecting three properties for change tracking, with alternative minimal response behavior.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "orgcontact_delta_minimal"
@@ -214,6 +229,12 @@ The next example shows the initial request selecting three properties for change
 GET https://graph.microsoft.com/beta/contacts/delta?$select=displayName,jobTitle,mail
 Prefer: return=minimal
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/orgcontact-delta-minimal-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

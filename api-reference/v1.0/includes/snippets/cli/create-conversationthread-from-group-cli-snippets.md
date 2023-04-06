@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups item threads create --group-id {group-id} --body '{\
+mgc groups threads create --group-id {group-id} --body '{\
   "topic": "New Conversation Thread Topic",\
   "posts": [{\
     "body": {\

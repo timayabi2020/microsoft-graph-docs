@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc security cases ediscovery-cases item noncustodial-data-sources create --ediscovery-case-id {ediscoveryCase-id} --body '{\
+mgc security cases ediscovery-cases noncustodial-data-sources create --ediscovery-case-id {ediscoveryCase-id} --body '{\
     "dataSource": {\
         "@odata.type": "microsoft.graph.security.siteSource",\
         "site": {\

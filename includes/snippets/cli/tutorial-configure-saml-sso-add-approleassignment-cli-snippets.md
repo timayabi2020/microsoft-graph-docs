@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc service-principals item app-role-assignments create --service-principal-id {servicePrincipal-id} --body '{\
+mgc service-principals app-role-assignments create --service-principal-id {servicePrincipal-id} --body '{\
   "principalId": "040f9599-7c0f-4f94-aa75-8394c4c6ea9b",\
   "principalType": "User",\
   "appRoleId":"3a84e31e-bffa-470f-b9e6-754a61e4dc63",\

@@ -65,6 +65,7 @@ If successful, this method returns a `201, Created` response code and a [program
 In the request body, supply a JSON representation of the [programControl](../resources/programcontrol.md) object.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_programControl_from_programControls"
@@ -79,6 +80,16 @@ Content-type: application/json
     "programId": "7e59d237-2fb0-4e5d-b7bb-d4f9f9129213"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-programcontrol-from-programcontrols-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-programcontrol-from-programcontrols-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

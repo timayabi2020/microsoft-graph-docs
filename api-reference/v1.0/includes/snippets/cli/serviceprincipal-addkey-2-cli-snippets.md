@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc service-principals item microsoft-graph-add-key post --service-principal-id {servicePrincipal-id} --body '{\
+mgc service-principals add-key post --service-principal-id {servicePrincipal-id} --body '{\
     "keyCredential": {\
         "type": "X509CertAndPassword",\
         "usage": "Sign",\

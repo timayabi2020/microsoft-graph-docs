@@ -81,6 +81,7 @@ If successful, this method returns `204 No Content` response code. It does not r
 ##### Request
 The first example references an extension by its name and deletes the extension in the specified message.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_opentypeextension",
@@ -89,6 +90,16 @@ The first example references an extension by its name and deletes the extension 
 ```http
 DELETE https://graph.microsoft.com/beta/me/messages/AAMkAGE1M2IyNGNmLTI5MTktNDUyZi1iOTVl===/extensions/Com.Contoso.Referral/
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/delete-opentypeextension-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delete-opentypeextension-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 The second example deletes an extension in the specified group event.

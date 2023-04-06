@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc applications item patch --application-id {application-id} --body '{\
+mgc applications patch --application-id {application-id} --body '{\
     "requiredResourceAccess": [\
         {\
             "resourceAppId": "00000002-0000-0000-c000-000000000000",\

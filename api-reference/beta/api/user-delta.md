@@ -109,6 +109,7 @@ Adding an optional request header - `prefer:return=minimal` - results in the fol
 
 The following is an example of the request. There is no `$select` parameter, so a default set of properties is tracked and returned.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_delta"
@@ -117,6 +118,12 @@ The following is an example of the request. There is no `$select` parameter, so 
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/delta
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/user-delta-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -165,6 +172,7 @@ Content-type: application/json
 
 The next example shows the initial request selecting three properties for change tracking, with default response behavior.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_delta_select"
@@ -173,6 +181,12 @@ The next example shows the initial request selecting three properties for change
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/delta?$select=displayName,jobTitle,mobilePhone
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/user-delta-select-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -209,6 +223,7 @@ Content-type: application/json
 
 The next example shows the initial request selecting three properties for change tracking, with alternative minimal response behavior.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "user_delta_minimal"
@@ -218,6 +233,12 @@ The next example shows the initial request selecting three properties for change
 GET https://graph.microsoft.com/beta/users/delta?$select=displayName,jobTitle,mobilePhone
 Prefer: return=minimal
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/user-delta-minimal-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

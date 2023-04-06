@@ -60,6 +60,7 @@ If successful, this method returns a `200 OK` response code and a [settings](../
 The following is an example of a request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_settings_at_tenant_level"
@@ -68,6 +69,12 @@ The following is an example of a request.
 ``` http
 GET https://graph.microsoft.com/beta/admin/sharepoint/settings
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-settings-at-tenant-level-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

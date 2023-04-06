@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me activities item delete --user-activity-id {userActivity-id}
+mgc me activities delete --user-activity-id {userActivity-id}
 
 ```

@@ -49,6 +49,7 @@ If successful, this method returns a `202 Accepted` response code. It does not r
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_deployment"
@@ -57,6 +58,16 @@ If successful, this method returns a `202 Accepted` response code. It does not r
 ``` http
 DELETE https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deploymentId}
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/delete-deployment-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delete-deployment-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

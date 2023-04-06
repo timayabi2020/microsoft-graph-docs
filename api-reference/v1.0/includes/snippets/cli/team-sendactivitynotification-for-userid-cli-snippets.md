@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc users item teamwork microsoft-graph-send-activity-notification post --user-id {user-id} --body '{\
+mgc users teamwork send-activity-notification post --user-id {user-id} --body '{\
     "topic": {\
         "source": "text",\
         "value": "Deployment Approvals Channel",\

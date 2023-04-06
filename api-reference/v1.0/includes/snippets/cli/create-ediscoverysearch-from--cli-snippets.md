@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc security cases ediscovery-cases item searches create --ediscovery-case-id {ediscoveryCase-id} --body '{\
+mgc security cases ediscovery-cases searches create --ediscovery-case-id {ediscoveryCase-id} --body '{\
     "displayName": "My search 2",\
     "description": "My first search",\
     "contentQuery": "(Author=\"edison\")",\

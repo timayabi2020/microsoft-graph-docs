@@ -66,6 +66,7 @@ In the request body, supply a JSON representation of the new properties of the [
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_accessReviewScheduleDefinition"
@@ -112,6 +113,12 @@ Content-type: application/json
   }
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-accessreviewscheduledefinition-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

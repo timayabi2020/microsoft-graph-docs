@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc communications calls item participants item microsoft-graph-start-hold-music post --call-id {call-id} --participant-id {participant-id} --body '{\
+mgc communications calls participants start-hold-music post --call-id {call-id} --participant-id {participant-id} --body '{\
   "customPrompt": {\
     "@odata.type": "#microsoft.graph.mediaPrompt",\
     "mediaInfo": {\

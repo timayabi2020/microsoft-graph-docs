@@ -54,6 +54,7 @@ If successful, this method returns a `204 No content` response code. It does not
 ### Request
 The following example changes the staff member's schedule to have Mondays off.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "update_bookingstaffmember",
@@ -129,6 +130,17 @@ Content-type: application/json
     ]
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/update-bookingstaffmember-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-bookingstaffmember-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 ### Response
 
 The following is an example of the response.

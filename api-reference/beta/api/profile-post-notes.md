@@ -58,6 +58,7 @@ If successful, this method returns a `201 Created` response code and a [personAn
 
 ## Examples
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_personannotation_from_"
@@ -75,6 +76,16 @@ Content-Type: application/json
   "displayName": "About Me"
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-personannotation-from--powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-personannotation-from--typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

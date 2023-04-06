@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc sites item permissions create --site-id {site-id} --body '{\
+mgc sites permissions create --site-id {site-id} --body '{\
   "roles": ["write"],\
   "grantedToIdentities": [{\
     "application": {\

@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc policies activity-based-timeout-policies item delete --activity-based-timeout-policy-id {activityBasedTimeoutPolicy-id}
+mgc policies activity-based-timeout-policies delete --activity-based-timeout-policy-id {activityBasedTimeoutPolicy-id}
 
 ```

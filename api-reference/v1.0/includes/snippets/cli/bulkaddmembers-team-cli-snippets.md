@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item members microsoft-graph-add post --team-id {team-id} --body '{\
+mgc teams members add post --team-id {team-id} --body '{\
     "values": [\
         {\
             "@odata.type": "microsoft.graph.aadUserConversationMember",\

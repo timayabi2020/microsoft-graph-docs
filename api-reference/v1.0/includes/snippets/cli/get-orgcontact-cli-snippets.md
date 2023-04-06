@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc contacts item get --org-contact-id {orgContact-id}
+mgc contacts get --org-contact-id {orgContact-id}
 
 ```

@@ -67,6 +67,7 @@ If the export is started successfully, this action returns a `202 Accepted` resp
 ### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "reviewset_export"
@@ -84,6 +85,12 @@ Content-Type: application/json
   "exportStructure": "directory"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/reviewset-export-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

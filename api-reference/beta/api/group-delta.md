@@ -171,6 +171,7 @@ The next example shows the initial request selecting 3 properties for change tra
 
 # [HTTP](#tab/http)
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "group_delta_with_selelct"
@@ -179,6 +180,12 @@ The next example shows the initial request selecting 3 properties for change tra
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/groups/delta?$select=displayName,description,mailNickname
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/group-delta-with-selelct-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response 2
@@ -215,6 +222,7 @@ The next example shows the initial request selecting 3 properties for change tra
 
 # [HTTP](#tab/http)
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "group_delta_minimal"
@@ -224,6 +232,12 @@ The next example shows the initial request selecting 3 properties for change tra
 GET https://graph.microsoft.com/beta/groups/delta?$select=displayName,description,mailNickname
 Prefer: return=minimal
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/group-delta-minimal-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response 3

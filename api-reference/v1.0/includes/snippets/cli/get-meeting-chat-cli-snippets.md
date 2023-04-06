@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc chats item get --chat-id {chat-id} --expand lastMessagePreview
+mgc chats get --chat-id {chat-id}
 
 ```

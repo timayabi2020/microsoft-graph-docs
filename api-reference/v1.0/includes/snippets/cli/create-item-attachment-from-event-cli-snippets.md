@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me events item attachments create --event-id {event-id} --body '{\
+mgc me events attachments create --event-id {event-id} --body '{\
   "@odata.type": "#microsoft.graph.itemAttachment",\
   "name": "Holiday event", \
   "item": {\

@@ -52,6 +52,7 @@ If successful, this method returns a `201 Created` response code and a new [work
 
 The following is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_workbookcommentreply_from_workbookcomment"
@@ -66,6 +67,16 @@ Content-type: application/json
   "contentType": "plain"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-workbookcommentreply-from-workbookcomment-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Cli](#tab/cli)
+[!INCLUDE [sample-code](../includes/snippets/cli/create-workbookcommentreply-from-workbookcomment-cli-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc places item patch --place-id {place-id} --body '{\
+mgc places patch --place-id {place-id} --body '{\
   "@odata.type": "microsoft.graph.roomList",\
   "displayName": "Building 1",\
   "phone":"555-555-0100",\

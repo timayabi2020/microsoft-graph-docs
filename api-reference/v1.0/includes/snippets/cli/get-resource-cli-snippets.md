@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me onenote resources item content get --onenote-resource-id {onenoteResource-id}
+mgc me onenote resources content get --onenote-resource-id {onenoteResource-id}
 
 ```

@@ -95,6 +95,7 @@ If successful, this method returns a `200 OK` response.
 The following is an example of the request to update the **policyViolation** property on a Microsoft Teams channel message by using application permissions.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "chatMessage.PatchPolicyViolation.All",
@@ -116,6 +117,16 @@ Content-Type: application/json
   }
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/chatmessagepatchpolicyviolationall-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/chatmessagepatchpolicyviolationall-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -147,6 +158,7 @@ HTTP/1.1 200 OK
 The following is an example of the request to update the properties on a Microsoft Teams channel message by using delegated permissions.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "patch_chatMessage_1",
@@ -184,6 +196,16 @@ Content-Type: application/json
 }
 ```
 
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/patch-chatmessage-1-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/patch-chatmessage-1-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 #### Response
 
@@ -203,6 +225,7 @@ HTTP/1.1 204 NoContent
 The following is an example of the request to update the mentions on a Microsoft Teams channel message by using delegated permissions.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "patch_chatMessage_2",
@@ -270,6 +293,16 @@ Content-Type: application/json
 }
 ```
 
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/patch-chatmessage-2-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/patch-chatmessage-2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 #### Response
 
@@ -289,6 +322,7 @@ HTTP/1.1 204 NoContent
 The following is an example of the request to update the attachments on a Microsoft Teams channel message by using delegated permissions.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "patch_chatMessage_3",
@@ -343,6 +377,16 @@ Content-Type: application/json
 }
 ```
 
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/patch-chatmessage-3-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/patch-chatmessage-3-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 #### Response
 
@@ -363,6 +407,7 @@ The following is an example of the request to update the reactions property on a
 
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "patch_chatMessage_4",
@@ -650,6 +695,16 @@ Content-Type: application/json
   ]
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/patch-chatmessage-4-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/patch-chatmessage-4-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

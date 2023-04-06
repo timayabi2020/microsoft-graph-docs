@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc communications calls microsoft-graph-log-teleconference-device-quality post --body '{\
+mgc communications calls log-teleconference-device-quality post --body '{\
   "quality": {\
     "@odata.type": "#microsoft.graph.teleconferenceDeviceQuality",\
     "callChainId": "0622673d-9f69-49b3-9d4f-5ec64f42ecce",\

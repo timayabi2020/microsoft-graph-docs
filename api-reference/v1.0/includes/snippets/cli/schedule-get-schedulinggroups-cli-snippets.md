@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item schedule scheduling-groups item get --team-id {team-id} --scheduling-group-id {schedulingGroup-id}
+mgc teams schedule scheduling-groups get --team-id {team-id} --scheduling-group-id {schedulingGroup-id}
 
 ```

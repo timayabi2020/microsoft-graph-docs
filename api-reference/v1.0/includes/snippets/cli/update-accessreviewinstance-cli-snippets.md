@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity-governance access-reviews definitions item instances item patch --access-review-schedule-definition-id {accessReviewScheduleDefinition-id} --access-review-instance-id {accessReviewInstance-id} --body '{\
+mgc identity-governance access-reviews definitions instances patch --access-review-schedule-definition-id {accessReviewScheduleDefinition-id} --access-review-instance-id {accessReviewInstance-id} --body '{\
     "scope": {\
         "@odata.type": "#microsoft.graph.principalResourceMembershipsScope",\
         "principalScopes": [\

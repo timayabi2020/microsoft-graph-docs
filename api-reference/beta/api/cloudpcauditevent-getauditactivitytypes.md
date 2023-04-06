@@ -55,6 +55,7 @@ If successful, this method returns a `200 OK` response code and a String collect
 ### Request
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "cloudpcauditevent_getauditactivitytypes"
@@ -64,6 +65,12 @@ If successful, this method returns a `200 OK` response code and a String collect
 ``` http
 GET https://graph.microsoft.com/beta/deviceManagement/virtualEndpoint/auditEvents/getAuditActivityTypes
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/cloudpcauditevent-getauditactivitytypes-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

@@ -95,12 +95,11 @@ Content-Type: application/json
 }
 ```
 
-# [cli](#tab/cli)
-[!INCLUDE [sample-code](../includes/snippets/cli/update-externalitem-cli-snippets.md)]
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/update-externalitem-typescript-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 
 

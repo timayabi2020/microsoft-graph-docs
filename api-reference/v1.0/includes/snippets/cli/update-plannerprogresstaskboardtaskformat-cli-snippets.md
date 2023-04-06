@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc planner tasks item progress-task-board-format patch --planner-task-id {plannerTask-id} --if-match W/"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAWCc=" --body '{\
+mgc planner tasks progress-task-board-format patch --planner-task-id {plannerTask-id} --if-match W/"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAWCc=" --body '{\
   "orderHint": "A6673H Ejkl!"\
 }\
 '

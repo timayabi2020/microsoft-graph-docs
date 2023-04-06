@@ -1,0 +1,21 @@
+---
+description: "Automatically generated file. DO NOT MODIFY"
+---
+
+```typescript
+
+//THIS SNIPPET IS A PREVIEW FOR THE KIOTA BASED SDK. NON-PRODUCTION USE ONLY
+const graphServiceClient = GraphServiceClient.init({authProvider});
+
+const requestBody : AuthenticationStrengthPolicy = {
+	"@odata.type" : "#microsoft.graph.authenticationStrengthPolicy",
+	displayName : "FIDO2 only",
+	description : "An auth strength allowing only FIDO2 security keys.",
+};
+
+const result = async () => {
+	await graphServiceClient.policies.authenticationStrengthPoliciesById("authenticationStrengthPolicy-id").patch(requestBody);
+}
+
+
+```

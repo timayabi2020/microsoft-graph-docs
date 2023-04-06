@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item channels item messages item patch --team-id {team-id} --channel-id {channel-id} --chat-message-id {chatMessage-id} --body '{\
+mgc teams channels messages patch --team-id {team-id} --channel-id {channel-id} --chat-message-id {chatMessage-id} --body '{\
   "messageType": "message",\
   "deletedDateTime": null,\
   "subject": null,\

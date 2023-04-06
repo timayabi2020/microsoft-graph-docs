@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc sites item columns create --site-id {site-id} --body '{\
+mgc sites columns create --site-id {site-id} --body '{\
    "description":"test",\
    "enforceUniqueValues":false,\
    "hidden":false,\

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups item events create --group-id {group-id} --body '{\
+mgc groups events create --group-id {group-id} --body '{\
   "subject": "Let's go for lunch",\
   "body": {\
     "contentType": "HTML",\

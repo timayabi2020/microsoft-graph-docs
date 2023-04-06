@@ -66,6 +66,7 @@ If successful, this method returns a `200 OK` response code and the requested [p
 
 The following example specifies the **id** of a **room** to get its properties.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["3162F1E1-C4C0-604B-51D8-91DA78989EB1"],
@@ -75,6 +76,12 @@ The following example specifies the **id** of a **room** to get its properties.
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/places/3162F1E1-C4C0-604B-51D8-91DA78989EB1
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-room-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -133,6 +140,7 @@ Content-type: application/json
 The following example specifies the **id** of a **workspace** to get its properties.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["3162F1E1-C4C0-604B-51D8-91DA78989EB1"],
@@ -142,6 +150,12 @@ The following example specifies the **id** of a **workspace** to get its propert
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/places/3162F1E1-C4C0-604B-51D8-91DA78989EB1
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-workspace-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -194,6 +208,7 @@ Content-type: application/json
 
 The following example specifies the **emailAddress** of a **roomList** to get its properties.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "sampleKeys": ["bldg1@contoso.com"],
@@ -203,6 +218,12 @@ The following example specifies the **emailAddress** of a **roomList** to get it
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/places/bldg1@contoso.com
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-roomlist-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

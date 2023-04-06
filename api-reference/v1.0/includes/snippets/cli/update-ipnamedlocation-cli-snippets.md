@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc identity conditional-access named-locations item patch --named-location-id {namedLocation-id} --body '{\
+mgc identity conditional-access named-locations patch --named-location-id {namedLocation-id} --body '{\
     "@odata.type": "#microsoft.graph.ipNamedLocation",\
     "displayName": "Untrusted named location with only IPv4 address",\
     "isTrusted": false,\

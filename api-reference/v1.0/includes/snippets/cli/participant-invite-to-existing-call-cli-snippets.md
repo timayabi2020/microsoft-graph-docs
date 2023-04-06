@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc communications calls item participants microsoft-graph-invite post --call-id {call-id} --body '{\
+mgc communications calls participants invite post --call-id {call-id} --body '{\
   "participants": [\
     {\
       "@odata.type": "#microsoft.graph.invitationParticipantInfo",\

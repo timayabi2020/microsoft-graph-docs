@@ -51,6 +51,7 @@ The following is an example of the request to get **contactMergeSuggestions** se
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_contactmergesuggestions"
@@ -59,6 +60,16 @@ The following is an example of the request to get **contactMergeSuggestions** se
 ``` http
 GET https://graph.microsoft.com/beta/me/settings/contactMergeSuggestions
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-contactmergesuggestions-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-contactmergesuggestions-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

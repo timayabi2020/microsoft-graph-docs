@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc print connectors item patch --print-connector-id {printConnector-id} --body '{\
+mgc print connectors patch --print-connector-id {printConnector-id} --body '{\
   "displayName": "ConnectorName",\
   "fullyQualifiedDomainName": "CONNECTOR-MACHINE",\
   "operatingSystem": "Microsoft Windows 10 Enterprise Insider Preview | 10.0.19555",\

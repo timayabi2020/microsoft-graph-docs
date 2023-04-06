@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc planner tasks item get --planner-task-id {plannerTask-id}
+mgc planner tasks get --planner-task-id {plannerTask-id}
 
 ```

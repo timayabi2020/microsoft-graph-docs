@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc security alerts item patch --alert-id {alert-id} --body '{\
+mgc security alerts patch --alert-id {alert-id} --body '{\
   "assignedTo": "String",\
   "closedDateTime": "String (timestamp)",\
   "comments": [\

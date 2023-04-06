@@ -87,6 +87,7 @@ See:</br>
 ### Example
 ##### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "application_delta"
@@ -94,6 +95,12 @@ See:</br>
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/applications/delta
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/application-delta-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

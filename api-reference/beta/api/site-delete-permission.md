@@ -49,6 +49,7 @@ If successful, this method returns `204 No Content` response code. It does not r
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_permission_2"
@@ -57,6 +58,16 @@ If successful, this method returns `204 No Content` response code. It does not r
 ``` http
 DELETE https://graph.microsoft.com/beta/sites/{sitesId}/permissions/{permissionId}
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/delete-permission-2-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delete-permission-2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

@@ -49,6 +49,7 @@ If successful, this action returns a `200 OK` response code and a [tenant](../re
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tenant_resettenantonboardingstatus"
@@ -57,6 +58,12 @@ If successful, this action returns a `200 OK` response code and a [tenant](../re
 ``` http
 POST https://graph.microsoft.com/beta/tenantRelationships/managedTenants/tenants/{tenantId}/resetTenantOnboardingStatus
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/tenant-resettenantonboardingstatus-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

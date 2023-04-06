@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc sites item content-types item columns list --site-id {site-id} --content-type-id {contentType-id}
+mgc sites content-types columns list --site-id {site-id} --content-type-id {contentType-id}
 
 ```

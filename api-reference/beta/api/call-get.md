@@ -54,6 +54,7 @@ If successful, this method returns a `200 OK` response code and a [call](../reso
 
 ##### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get-call-1"
@@ -62,6 +63,16 @@ If successful, this method returns a `200 OK` response code and a [call](../reso
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/communications/calls/{id}
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-call-1-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-call-1-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response
@@ -149,6 +160,7 @@ Content-Type: application/json
 
 ##### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get-call-2"
@@ -156,6 +168,16 @@ Content-Type: application/json
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/communications/calls/2f1a1100-b174-40a0-aba7-0b405e01ed92
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-call-2-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-call-2-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ##### Response

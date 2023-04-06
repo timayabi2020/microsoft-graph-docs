@@ -1,0 +1,22 @@
+---
+description: "Automatically generated file. DO NOT MODIFY"
+---
+
+```typescript
+
+//THIS SNIPPET IS A PREVIEW FOR THE KIOTA BASED SDK. NON-PRODUCTION USE ONLY
+const graphServiceClient = GraphServiceClient.init({authProvider});
+
+const requestBody : ApplyHoldPostRequestBody = {
+	ids : [
+		"39333641443238353535383731453339",
+		"46333131344239353834433430454335",
+	],
+};
+
+const result = async () => {
+	await graphServiceClient.security.cases.ediscoveryCasesById("ediscoveryCase-id").noncustodialDataSources.securityApplyHold.post(requestBody);
+}
+
+
+```

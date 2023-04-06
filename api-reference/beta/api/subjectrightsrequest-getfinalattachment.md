@@ -52,6 +52,7 @@ If successful, this function will redirect to the Microsoft Azure blob storage l
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "subjectRightsRequest_getfinalattachment"
@@ -60,6 +61,12 @@ If successful, this function will redirect to the Microsoft Azure blob storage l
 ``` http
 GET https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequestId}/getFinalAttachment
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/subjectrightsrequest-getfinalattachment-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

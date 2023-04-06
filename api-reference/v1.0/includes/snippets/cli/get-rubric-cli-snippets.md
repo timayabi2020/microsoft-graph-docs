@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc education classes item assignments item rubric get --education-class-id {educationClass-id} --education-assignment-id {educationAssignment-id}
+mgc education classes assignments rubric get --education-class-id {educationClass-id} --education-assignment-id {educationAssignment-id}
 
 ```

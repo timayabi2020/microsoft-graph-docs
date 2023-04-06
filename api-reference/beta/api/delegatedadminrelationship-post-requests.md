@@ -56,6 +56,7 @@ If successful, this method returns a `201 Created` response code and a [delegate
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_delegatedadminrelationshiprequest_from_",
@@ -70,6 +71,12 @@ Content-Type: application/json
   "action": "lockForApproval"
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-delegatedadminrelationshiprequest-from--typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

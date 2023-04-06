@@ -52,6 +52,7 @@ If successful, this function returns a `200 OK` response code and a [attackSimul
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "reportroot_getattacksimulationtrainingusercoverage"
@@ -60,6 +61,12 @@ If successful, this function returns a `200 OK` response code and a [attackSimul
 ``` http
 GET https://graph.microsoft.com/beta/reports/getAttackSimulationTrainingUserCoverage
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/reportroot-getattacksimulationtrainingusercoverage-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc chats item microsoft-graph-send-activity-notification post --chat-id {chat-id} --body '{\
+mgc chats send-activity-notification post --chat-id {chat-id} --body '{\
     "topic": {\
         "source": "entityUrl",\
         "value": "https://graph.microsoft.com/v1.0/chats/{chatId}"\

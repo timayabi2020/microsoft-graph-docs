@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item tags create --team-id {team-id} --body '{\
+mgc teams tags create --team-id {team-id} --body '{\
   "displayName": "Finance",\
   "members": [\
     {\

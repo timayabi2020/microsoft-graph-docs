@@ -65,6 +65,7 @@ If successful, this method returns a `200 OK` response code and the requested [m
 The following is an example of the request to get the basic details from a [callRecord](../resources/callrecords-callrecord.md).
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_callrecord"
@@ -73,6 +74,16 @@ The following is an example of the request to get the basic details from a [call
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/communications/callRecords/{id}
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-callrecord-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-callrecord-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response
@@ -135,6 +146,7 @@ Content-type: application/json
 The following is an example of the request to get the full details from a [callRecord](../resources/callrecords-callrecord.md), including session and segment components.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_callrecord_expanded"
@@ -143,6 +155,16 @@ The following is an example of the request to get the full details from a [callR
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/communications/callRecords/{id}?$expand=sessions($expand=segments)
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/get-callrecord-expanded-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/get-callrecord-expanded-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 #### Response

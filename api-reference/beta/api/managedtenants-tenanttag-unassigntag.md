@@ -56,6 +56,7 @@ If successful, this action returns a `200 OK` response code and a [tenantTag](..
 
 ### Request
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "tenanttag_unassigntag"
@@ -71,6 +72,12 @@ Content-Type: application/json
   ]
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/tenanttag-unassigntag-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

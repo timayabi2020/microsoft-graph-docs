@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc sites item content-types item microsoft-graph-associate-with-hub-sites post --site-id {site-id} --content-type-id {contentType-id} --body '{\
+mgc sites content-types associate-with-hub-sites post --site-id {site-id} --content-type-id {contentType-id} --body '{\
    "hubSiteUrls":[\
       "https://graph.microsoft.com/v1.0/sites/{site-id}"\
    ],\

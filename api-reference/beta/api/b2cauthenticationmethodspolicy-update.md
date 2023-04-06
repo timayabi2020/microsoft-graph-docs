@@ -63,6 +63,7 @@ If successful, this method returns a `204 No Content` response code and an empty
 The following is an example of the request.
 
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "patch_b2cauthenticationmethodspolicy"
@@ -77,6 +78,12 @@ PATCH https://graph.microsoft.com/beta/policies/b2cAuthenticationMethodsPolicy
     "isPhoneOneTimePasswordAuthenticationEnabled": true
 }
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/patch-b2cauthenticationmethodspolicy-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc policies home-realm-discovery-policies item patch --home-realm-discovery-policy-id {homeRealmDiscoveryPolicy-id} --body '{\
+mgc policies home-realm-discovery-policies patch --home-realm-discovery-policy-id {homeRealmDiscoveryPolicy-id} --body '{\
     "definition": [\
     "{\"HomeRealmDiscoveryPolicy\":\
      {\"AccelerateToFederatedDomain\":true,\

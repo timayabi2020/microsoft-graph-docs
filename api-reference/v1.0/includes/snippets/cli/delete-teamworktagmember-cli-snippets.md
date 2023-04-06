@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item tags item members item delete --team-id {team-id} --teamwork-tag-id {teamworkTag-id} --teamwork-tag-member-id {teamworkTagMember-id}
+mgc teams tags members delete --team-id {team-id} --teamwork-tag-id {teamworkTag-id} --teamwork-tag-member-id {teamworkTagMember-id}
 
 ```

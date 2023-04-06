@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc sites item content-types item patch --site-id {site-id} --content-type-id {contentType-id} --body '{\
+mgc sites content-types patch --site-id {site-id} --content-type-id {contentType-id} --body '{\
     "name": "updatedCt",\
 	"documentSet": {\
 		"shouldPrefixNameToFile": true,\

@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc teams item patch --team-id {team-id} --body '{\
+mgc teams patch --team-id {team-id} --body '{\
   "memberSettings": {\
     "allowCreateUpdateChannels": true\
   },\

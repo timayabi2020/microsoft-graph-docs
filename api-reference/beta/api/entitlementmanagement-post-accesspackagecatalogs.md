@@ -54,6 +54,7 @@ If successful, this method returns a 200-series response code and a new [accessP
 
 The following is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "create_accesspackagecatalog_from_accesspackagecatalogs"
@@ -69,6 +70,16 @@ Content-type: application/json
   "isExternallyVisible": true
 }
 ```
+
+# [PowerShell](#tab/powershell)
+[!INCLUDE [sample-code](../includes/snippets/powershell/create-accesspackagecatalog-from-accesspackagecatalogs-powershell-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/create-accesspackagecatalog-from-accesspackagecatalogs-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

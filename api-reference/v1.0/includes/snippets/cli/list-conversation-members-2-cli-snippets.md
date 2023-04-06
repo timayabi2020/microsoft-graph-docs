@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc chats item members list --chat-id {chat-id}
+mgc chats members list --chat-id {chat-id}
 
 ```

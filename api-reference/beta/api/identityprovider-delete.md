@@ -57,6 +57,7 @@ If successful, this method returns `204 No Content` response code.
 
 The following is an example of the request.
 
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "delete_identityprovider_forID"
@@ -66,6 +67,12 @@ The following is an example of the request.
 ``` http
 DELETE https://graph.microsoft.com/beta/identityProviders/{id}
 ```
+
+# [TypeScript](#tab/typescript)
+[!INCLUDE [sample-code](../includes/snippets/typescript/delete-identityprovider-forid-typescript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
 
 
 ### Response

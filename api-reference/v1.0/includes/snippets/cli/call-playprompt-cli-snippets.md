@@ -4,7 +4,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc communications calls item microsoft-graph-play-prompt post --call-id {call-id} --body '{\
+mgc communications calls play-prompt post --call-id {call-id} --body '{\
   "clientContext": "d45324c1-fcb5-430a-902c-f20af696537c",\
   "prompts": [\
     {\
