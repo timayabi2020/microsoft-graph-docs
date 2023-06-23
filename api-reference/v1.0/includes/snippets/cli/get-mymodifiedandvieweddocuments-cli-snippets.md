@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me insights used list --orderby LastUsed/LastAccessedDateTime%20desc
+mgc me insights used list --orderby LastUsed/LastAccessedDateTime desc
 
 ```

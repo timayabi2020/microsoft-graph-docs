@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc users list --filter startswith(givenName,%20'J')
+mgc users list --filter startswith(givenName, 'J')
 
 ```

@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups list --search %22displayName:Video%22%20OR%20%22description:prod%22 --count true --orderby displayName --consistency-level eventual
+mgc groups list --search "displayName:Video" OR "description:prod" --count true --orderby displayName --consistency-level eventual
 
 ```
