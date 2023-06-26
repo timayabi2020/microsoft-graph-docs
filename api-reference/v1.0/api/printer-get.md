@@ -70,7 +70,7 @@ By default, the response will not contain [printerCapabilities](../resources/pri
 GET https://graph.microsoft.com/v1.0/print/printers/{printerId}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-printer-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -170,7 +170,7 @@ Content-Type: application/json
 GET https://graph.microsoft.com/v1.0/print/printers/{printerId}?$select=id,displayName,capabilities
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-printer-capabilities-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

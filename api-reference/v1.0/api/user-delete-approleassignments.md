@@ -65,7 +65,7 @@ Here is an example of the request to delete an app role assignment.
 DELETE https://graph.microsoft.com/v1.0/users/{id}/appRoleAssignments/{id}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/user-delete-approleassignment-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

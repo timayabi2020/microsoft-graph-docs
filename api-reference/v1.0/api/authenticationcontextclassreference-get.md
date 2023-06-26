@@ -61,7 +61,7 @@ The following is an example of the request.
 GET /identity/conditionalAccess/authenticationContextClassReferences/c1
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-authenticationcontextclassreference-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

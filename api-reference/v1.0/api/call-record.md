@@ -98,7 +98,7 @@ Content-Length: 394
 }
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/call-recordresponse-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

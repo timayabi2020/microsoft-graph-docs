@@ -74,7 +74,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/identity/b2xUserFlows
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-b2xuserflows-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -132,7 +132,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/identity/b2xUserFlows?$expand=identityProviders
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-b2xuserflows-expand-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -74,7 +74,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/identity/identityProviders/Amazon-OAUTH
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-socialidentityprovider-from-identityproviderbase-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -122,7 +122,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/identity/identityProviders/MSASignup-OAUTH
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-builtinidentityprovider-from-identityproviderbase-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -169,7 +169,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/identity/identityProviders/Apple-Managed-OIDC
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-applemanagedidentityprovider-from-identityproviderbase-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

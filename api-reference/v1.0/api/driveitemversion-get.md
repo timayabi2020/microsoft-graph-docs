@@ -57,7 +57,7 @@ This example retrieves a version of a file in the current user's drive.
 GET /me/drive/items/{item-id}/versions/{version-id}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-single-version-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -102,12 +102,11 @@ This example retrieves the current version of a file in the current user's drive
 GET /me/drive/items/{item-id}/versions/current
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-current-version-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 #### Response
 

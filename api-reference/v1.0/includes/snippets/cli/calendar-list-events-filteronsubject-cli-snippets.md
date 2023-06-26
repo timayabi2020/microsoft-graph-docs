@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc me calendar events list --filter startsWith(subject,'All')
+mgc me calendar events list --filter "startsWith(subject,'All')"
 
 ```

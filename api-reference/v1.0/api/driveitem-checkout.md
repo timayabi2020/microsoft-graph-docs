@@ -56,7 +56,7 @@ This example checks out a file identified by `{item-id}`.
 POST /drives/{drive-id}/items/{item-id}/checkout
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/checkout-item-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

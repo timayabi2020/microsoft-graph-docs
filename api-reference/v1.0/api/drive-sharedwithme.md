@@ -36,7 +36,7 @@ Additionally, without one of the  **All** permissions, shared items returned fro
 GET /me/drive/sharedWithMe
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/shared-with-me-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -33,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/following
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-followed-items-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

@@ -52,7 +52,7 @@ Here is an example of the request.
 DELETE https://graph.microsoft.com/v1.0/me/contactFolders/{id}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-contactfolder-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

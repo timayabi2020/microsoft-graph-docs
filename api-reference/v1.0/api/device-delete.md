@@ -59,7 +59,7 @@ If successful, this method returns `204 No Content` response code. It does not r
 DELETE https://graph.microsoft.com/v1.0/devices/{id}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-device-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

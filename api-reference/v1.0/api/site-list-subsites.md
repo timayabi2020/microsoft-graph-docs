@@ -60,7 +60,7 @@ The following is an example of a request.
 GET https://graph.microsoft.com/v1.0/sites/{site-id}/sites
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-subsites-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

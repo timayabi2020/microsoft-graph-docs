@@ -104,7 +104,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/auditLogs/provisioning
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-provisioningobjectsummary-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
@@ -245,7 +245,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/auditLogs/provisioning
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-provisioningobjectsummary-error-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

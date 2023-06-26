@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc reports get-m365app-user-detail(period='{period}') get
+mgc reports get-m365app-user-detail-with-period get --period '{period-id}'
 
 ```

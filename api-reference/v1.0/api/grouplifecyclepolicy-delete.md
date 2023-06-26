@@ -63,7 +63,7 @@ The following is an example of a request.
 DELETE https://graph.microsoft.com/v1.0/groupLifecyclePolicies/{id}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-grouplifecyclepolicy-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

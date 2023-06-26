@@ -62,7 +62,7 @@ DELETE https://graph.microsoft.com/v1.0/organization/84841066-274d-4ec0-a5c1-276
 }
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-organizationalbranding-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

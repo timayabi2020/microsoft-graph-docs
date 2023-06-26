@@ -61,7 +61,7 @@ The following is an example of a request.
 DELETE https://graph.microsoft.com/v1.0/print/printers/{printerId}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/delete-printer-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

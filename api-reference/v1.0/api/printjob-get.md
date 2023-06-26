@@ -75,12 +75,11 @@ The following is an example of a request to get metadata for a print job.
 GET https://graph.microsoft.com/v1.0/print/printers/{printerId}/jobs/{printJobId}
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-printjob-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 #### Response
 **Note:** The response object shown here might be shortened for readability.
@@ -130,12 +129,11 @@ The following is a request to get a print job and any [tasks](../resources/print
 GET https://graph.microsoft.com/v1.0/print/printers/{printerId}/jobs/{printJobId}?$expand=tasks
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-printjob-withtasks-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 #### Response
 **Note:** The response object shown here might be shortened for readability.
@@ -195,12 +193,11 @@ The following is an example of a request to get a print job and its associated d
 GET https://graph.microsoft.com/v1.0/print/printers/{printerId}/jobs/{printJobId}?$expand=documents
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-printjob-withdocumentdata-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 #### Response
 **Note:** The response object shown here might be shortened for readability.

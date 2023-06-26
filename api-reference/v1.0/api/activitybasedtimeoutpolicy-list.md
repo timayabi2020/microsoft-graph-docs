@@ -68,7 +68,7 @@ The following is an example of the request.
 GET https://graph.microsoft.com/v1.0/policies/activityBasedTimeoutPolicies
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-activitybasedtimeoutpolicies-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

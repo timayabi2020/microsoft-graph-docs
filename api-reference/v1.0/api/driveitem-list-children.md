@@ -62,12 +62,11 @@ To retrieve files in the root of the drive, use the `root` relationship on the d
 GET /me/drive/root/children
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-children-root-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ### List children of a DriveItem with a known ID
 
@@ -81,7 +80,7 @@ To retrieve files in the root of the drive, use the `root` relationship on the d
 GET /drives/{drive-id}/items/{item-id}/children
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/list-children-files-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 

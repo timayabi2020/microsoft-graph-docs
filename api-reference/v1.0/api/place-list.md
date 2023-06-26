@@ -107,7 +107,7 @@ The following example shows how to get all the [room](../resources/room.md) obje
 GET https://graph.microsoft.com/v1.0/places/microsoft.graph.room
 ```
 
-# [Cli](#tab/cli)
+# [cli](#tab/cli)
 [!INCLUDE [sample-code](../includes/snippets/cli/get-all-rooms-cli-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
